@@ -1,0 +1,586 @@
+id_cliente,peso,colesterol,genero,idade,classe_trabalho,escolaridade,id_estado,estado_civil,raca,qtde_filhos,salario,sigla,estado,regiao,pais,cluster
+1,102.0,111,Masculino,39,Servidor Público,Ensino Médio Completo,2,Solteiro,Branco,2.0,4754,AL,Alagoas,Nordeste,Brasil,1
+2,115.0,135,Masculino,50,Autônomo,Superior Incompleto,24,Casado,Branco,1.0,3923,SC,Santa Catarina,Sul,Brasil,1
+3,115.0,136,Masculino,38,Funcionário Setor Privado,Ensino Médio Incompleto,4,Divorciado,Branco,0.0,1100,AM,Amazonas,Norte,Brasil,1
+4,140.0,167,Feminino,53,Funcionário Setor Privado,Ensino Médio Incompleto,24,Casado,Negro,1.0,1100,SC,Santa Catarina,Sul,Brasil,2
+5,130.0,158,Masculino,28,Funcionário Setor Privado,Ensino Médio Completo,15,Casado,Negro,0.0,3430,PB,Paraíba,Nordeste,Brasil,2
+6,198.0,227,Masculino,37,Funcionário Setor Privado,Mestrado,24,Casado,Branco,1.0,10787,SC,Santa Catarina,Sul,Brasil,0
+7,114.0,131,Masculino,49,Funcionário Setor Privado,Ensino Fundamental Completo,23,União Estável,Negro,1.0,1100,RR,Roraima,Norte,Brasil,1
+8,145.0,176,Feminino,52,Autônomo,Ensino Médio Incompleto,13,Casado,Branco,4.0,1100,MG,Minas Gerais,Sudeste,Brasil,2
+9,191.0,223,Feminino,31,Funcionário Setor Privado,Mestrado,17,Solteiro,Branco,4.0,6031,PE,Pernambuco,Nordeste,Brasil,0
+10,186.0,221,Masculino,42,Funcionário Setor Privado,Ensino Médio Completo,16,Casado,Branco,5.0,3798,PR,Paraná,Sul,Brasil,0
+11,104.0,116,Feminino,37,Funcionário Setor Privado,Superior Completo,4,Casado,Negro,4.0,10316,AM,Amazonas,Norte,Brasil,1
+12,188.0,222,Masculino,30,Servidor Público,Superior Incompleto,12,Casado,Pardo,5.0,3369,MS,Mato Grosso do Sul,Centro-Oeste,Brasil,0
+13,96.0,102,Feminino,23,Funcionário Setor Privado,Pós-Graduado,22,Solteiro,Branco,2.0,5316,RO,Rondônia,Norte,Brasil,1
+14,156.0,192,Feminino,32,Funcionário Setor Privado,Ensino Médio Completo,3,Solteiro,Negro,1.0,2897,AP,Amapá,Norte,Brasil,2
+15,125.0,152,Feminino,40,Funcionário Setor Privado,Ensino Médio Completo,12,Casado,Pardo,5.0,3269,MS,Mato Grosso do Sul,Centro-Oeste,Brasil,2
+16,178.0,213,Feminino,34,Funcionário Setor Privado,Ensino Fundamental Incompleto,15,Casado,Indígena,5.0,1100,PB,Paraíba,Nordeste,Brasil,0
+17,109.0,125,Feminino,25,Autônomo,Ensino Médio Incompleto,14,Solteiro,Branco,3.0,1100,PA,Pará,Norte,Brasil,1
+18,168.0,204,Masculino,32,Funcionário Setor Privado,Ensino Médio Incompleto,9,Solteiro,Branco,5.0,1100,GO,Goiás,Centro-Oeste,Brasil,0
+19,152.0,189,Feminino,38,Funcionário Setor Privado,Ensino Médio Incompleto,23,Casado,Branco,1.0,1100,RR,Roraima,Norte,Brasil,2
+20,133.0,163,Feminino,43,Autônomo,Mestrado,24,Divorciado,Branco,1.0,6120,SC,Santa Catarina,Sul,Brasil,2
+21,153.0,189,Feminino,40,Funcionário Setor Privado,Doutorado,8,Casado,Branco,2.0,12535,ES,Espírito Santo,Sudeste,Brasil,2
+22,107.0,122,Feminino,54,Funcionário Setor Privado,Ensino Médio Incompleto,27,Separado,Negro,2.0,1100,TO,Tocantins,Norte,Brasil,1
+23,199.0,228,Masculino,35,Funcionário Público,Ensino Fundamental Completo,7,Casado,Negro,4.0,1511,DF,Distrito Federal,Centro-Oeste,Brasil,0
+24,140.0,168,Feminino,43,Funcionário Setor Privado,Ensino Médio Incompleto,22,Casado,Branco,3.0,1100,RO,Rondônia,Norte,Brasil,2
+25,95.0,102,Masculino,59,Funcionário Setor Privado,Ensino Médio Incompleto,25,Divorciado,Branco,2.0,1100,SP,São Paulo,Sudeste,Brasil,1
+26,183.0,218,Feminino,56,Empresário,Ensino Médio Completo,27,Casado,Branco,0.0,10671,TO,Tocantins,Norte,Brasil,0
+27,108.0,123,Feminino,19,Estagiário,Ensino Médio Incompleto,2,Solteiro,Branco,2.0,1100,AL,Alagoas,Nordeste,Brasil,1
+28,190.0,222,Feminino,54,Desempregado,Ensino Médio Completo,8,Casado,Pardo,4.0,0,ES,Espírito Santo,Sudeste,Brasil,0
+29,174.0,208,Masculino,39,Funcionário Setor Privado,Ensino Médio Incompleto,19,Divorciado,Branco,0.0,1100,RJ,Rio de Janeiro,Sudeste,Brasil,0
+30,149.0,183,Masculino,49,Funcionário Setor Privado,Ensino Médio Incompleto,21,Casado,Branco,5.0,1100,RS,Rio Grande do Sul,Sul,Brasil,2
+31,169.0,204,Masculino,23,Empresário,Ensino Médio Completo,27,Solteiro,Branco,3.0,13883,TO,Tocantins,Norte,Brasil,0
+32,138.0,167,Masculino,20,Funcionário Setor Privado,Ensino Médio Completo,6,Solteiro,Negro,0.0,2635,CE,Ceará,Nordeste,Brasil,2
+33,151.0,188,Masculino,45,Funcionário Setor Privado,Ensino Médio Completo,27,Divorciado,Branco,5.0,2476,TO,Tocantins,Norte,Brasil,2
+34,109.0,126,Masculino,30,Funcionário Público,Ensino Médio Completo,12,Casado,Branco,3.0,3901,MS,Mato Grosso do Sul,Centro-Oeste,Brasil,1
+35,178.0,213,Feminino,22,Servidor Público,Ensino Médio Completo,16,Casado,Negro,5.0,5257,PR,Paraná,Sul,Brasil,0
+36,106.0,122,Masculino,48,Funcionário Setor Privado,Ensino Médio Incompleto,18,Solteiro,Branco,1.0,1100,PI,Piauí,Nordeste,Brasil,1
+37,195.0,225,Masculino,21,Funcionário Setor Privado,Ensino Médio Completo,17,Solteiro,Branco,2.0,2361,PE,Pernambuco,Nordeste,Brasil,0
+38,96.0,105,Masculino,19,Funcionário Setor Privado,Ensino Médio Incompleto,27,Casado,Branco,1.0,1100,TO,Tocantins,Norte,Brasil,1
+39,129.0,155,Feminino,31,Funcionário Setor Privado,Ensino Médio Completo,25,Casado,Branco,1.0,2583,SP,São Paulo,Sudeste,Brasil,2
+40,166.0,203,Masculino,48,Autônomo,Ensino Médio Completo,10,Casado,Branco,5.0,3669,MA,Maranhão,Nordeste,Brasil,0
+41,197.0,225,Masculino,31,Funcionário Setor Privado,Ensino Fundamental Completo,4,Casado,Branco,5.0,1100,AM,Amazonas,Norte,Brasil,0
+42,148.0,177,Masculino,53,Autônomo,Ensino Médio Completo,8,Casado,Branco,2.0,2067,ES,Espírito Santo,Sudeste,Brasil,2
+43,117.0,139,Masculino,24,Funcionário Setor Privado,Ensino Médio Completo,21,Casado,Branco,0.0,2682,RS,Rio Grande do Sul,Sul,Brasil,1
+44,193.0,224,Feminino,49,Funcionário Setor Privado,Ensino Médio Incompleto,27,Separado,Branco,5.0,1100,TO,Tocantins,Norte,Brasil,0
+45,170.0,207,Masculino,25,Funcionário Setor Privado,Superior Completo,23,Solteiro,Branco,2.0,8359,RR,Roraima,Norte,Brasil,0
+46,130.0,158,Feminino,57,Funcionário Público,Superior Incompleto,24,Casado,Negro,4.0,4789,SC,Santa Catarina,Sul,Brasil,2
+47,183.0,218,Masculino,53,Funcionário Setor Privado,Pós-Graduado,26,Casado,Branco,0.0,11972,SE,Sergipe,Nordeste,Brasil,0
+48,134.0,164,Feminino,44,Funcionário Setor Privado,Mestrado,19,Divorciado,Branco,2.0,10065,RJ,Rio de Janeiro,Sudeste,Brasil,2
+49,128.0,154,Feminino,41,Servidor Público,Ensino Médio Completo,23,Casado,Branco,4.0,3657,RR,Roraima,Norte,Brasil,2
+50,105.0,118,Feminino,29,Funcionário Setor Privado,Ensino Médio Completo,22,Solteiro,Branco,4.0,3484,RO,Rondônia,Norte,Brasil,1
+51,115.0,138,Feminino,25,Funcionário Setor Privado,Ensino Médio Completo,12,Casado,Amarelo,4.0,2656,MS,Mato Grosso do Sul,Centro-Oeste,Brasil,1
+52,166.0,199,Masculino,18,Funcionário Setor Privado,Ensino Médio Incompleto,6,Solteiro,Branco,1.0,1100,CE,Ceará,Nordeste,Brasil,0
+53,183.0,219,Masculino,47,Funcionário Setor Privado,Mestrado,26,Casado,Branco,3.0,8630,SE,Sergipe,Nordeste,Brasil,0
+54,149.0,183,Masculino,50,Funcionário Público,Ensino Médio Completo,15,Divorciado,Branco,3.0,5217,PB,Paraíba,Nordeste,Brasil,2
+55,110.0,128,Feminino,47,MEI,Ensino Médio Incompleto,19,Divorciado,Branco,4.0,3603,RJ,Rio de Janeiro,Sudeste,Brasil,1
+56,164.0,197,Feminino,43,Funcionário Setor Privado,Ensino Médio Completo,11,Casado,Branco,1.0,3357,MT,Mato Grosso,Centro-Oeste,Brasil,0
+57,157.0,196,Feminino,46,Funcionário Setor Privado,Ensino Fundamental Incompleto,13,Casado,Branco,5.0,1100,MG,Minas Gerais,Sudeste,Brasil,2
+58,170.0,208,Feminino,35,Funcionário Setor Privado,Ensino Médio Completo,21,Casado,Branco,2.0,3014,RS,Rio Grande do Sul,Sul,Brasil,0
+59,124.0,152,Masculino,41,Funcionário Setor Privado,Ensino Médio Incompleto,7,Casado,Branco,2.0,1100,DF,Distrito Federal,Centro-Oeste,Brasil,2
+60,145.0,175,Masculino,30,Funcionário Setor Privado,Ensino Médio Incompleto,27,Casado,Branco,1.0,1100,TO,Tocantins,Norte,Brasil,2
+61,113.0,129,Feminino,30,Funcionário Setor Privado,Ensino Médio Completo,7,Casado,Branco,4.0,2201,DF,Distrito Federal,Centro-Oeste,Brasil,1
+62,150.0,185,Feminino,32,Funcionário Setor Privado,Ensino Fundamental Incompleto,12,União Estável,Branco,4.0,1100,MS,Mato Grosso do Sul,Centro-Oeste,Brasil,2
+63,100.0,107,Masculino,48,Funcionário Setor Privado,Ensino Médio Incompleto,4,Casado,Branco,3.0,1100,AM,Amazonas,Norte,Brasil,1
+65,139.0,167,Feminino,29,Funcionário Setor Privado,Ensino Médio Completo,27,Divorciado,Branco,4.0,3865,TO,Tocantins,Norte,Brasil,2
+66,150.0,185,Masculino,36,Funcionário Setor Privado,Ensino Médio Incompleto,22,Casado,Branco,1.0,1100,RO,Rondônia,Norte,Brasil,2
+67,101.0,110,Masculino,28,Funcionário Setor Privado,Ensino Médio Completo,1,Divorciado,Branco,0.0,2245,AC,Acre,Norte,Brasil,1
+68,157.0,194,Masculino,53,Funcionário Setor Privado,Ensino Médio Incompleto,7,Casado,Branco,3.0,1100,DF,Distrito Federal,Centro-Oeste,Brasil,2
+69,187.0,221,Feminino,49,MEI,Ensino Médio Completo,5,Casado,Branco,1.0,5011,BA,Bahia,Nordeste,Brasil,0
+70,137.0,166,Feminino,25,Funcionário Setor Privado,Ensino Médio Completo,1,Solteiro,Branco,3.0,3450,AC,Acre,Norte,Brasil,2
+71,121.0,143,Masculino,19,Funcionário Setor Privado,Ensino Médio Completo,24,Solteiro,Branco,2.0,3554,SC,Santa Catarina,Sul,Brasil,1
+72,132.0,163,Feminino,31,Funcionário Setor Privado,Ensino Médio Completo,15,Separado,Negro,4.0,3805,PB,Paraíba,Nordeste,Brasil,2
+73,130.0,158,Masculino,29,Autônomo,Ensino Médio Completo,7,Casado,Branco,4.0,2465,DF,Distrito Federal,Centro-Oeste,Brasil,2
+74,156.0,191,Feminino,23,Funcionário Setor Privado,Ensino Médio Completo,12,Solteiro,Branco,3.0,3916,MS,Mato Grosso do Sul,Centro-Oeste,Brasil,2
+75,180.0,216,Feminino,79,Aposentado,Ensino Médio Completo,18,Casado,Branco,5.0,1495,PI,Piauí,Nordeste,Brasil,0
+76,100.0,106,Masculino,27,Funcionário Setor Privado,Ensino Médio Incompleto,19,Solteiro,Branco,3.0,1100,RJ,Rio de Janeiro,Sudeste,Brasil,1
+77,122.0,146,Feminino,40,Funcionário Setor Privado,Ensino Médio Completo,10,Casado,Branco,0.0,3124,MA,Maranhão,Nordeste,Brasil,1
+78,185.0,220,Feminino,67,Aposentado,Ensino Fundamental Completo,9,Casado,Branco,1.0,1711,GO,Goiás,Centro-Oeste,Brasil,0
+79,113.0,131,Feminino,18,Funcionário Setor Privado,Ensino Médio Incompleto,15,Solteiro,Branco,0.0,1100,PB,Paraíba,Nordeste,Brasil,1
+80,123.0,147,Feminino,31,Empresário,Ensino Fundamental Incompleto,19,Casado,Branco,2.0,13518,RJ,Rio de Janeiro,Sudeste,Brasil,1
+81,119.0,141,Feminino,18,Funcionário Setor Privado,Ensino Médio Incompleto,4,Solteiro,Branco,1.0,1100,AM,Amazonas,Norte,Brasil,1
+82,113.0,130,Masculino,52,Funcionário Setor Privado,Ensino Médio Completo,27,Casado,Branco,3.0,3919,TO,Tocantins,Norte,Brasil,1
+83,168.0,204,Masculino,59,Funcionário Setor Privado,Superior Completo,16,Casado,Branco,5.0,11734,PR,Paraná,Sul,Brasil,0
+84,126.0,152,Masculino,44,Funcionário Setor Privado,Superior Incompleto,22,Divorciado,Branco,4.0,3716,RO,Rondônia,Norte,Brasil,2
+85,102.0,111,Masculino,53,Funcionário Setor Privado,Pós-Graduado,13,Divorciado,Branco,4.0,6480,MG,Minas Gerais,Sudeste,Brasil,1
+86,116.0,139,Masculino,49,Empresário,Ensino Médio Incompleto,26,Casado,Branco,0.0,7371,SE,Sergipe,Nordeste,Brasil,1
+87,144.0,172,Masculino,33,Funcionário Setor Privado,Mestrado,24,Casado,Branco,0.0,10161,SC,Santa Catarina,Sul,Brasil,2
+88,140.0,168,Feminino,30,Funcionário Setor Privado,Ensino Fundamental Completo,23,Solteiro,Branco,2.0,1100,RR,Roraima,Norte,Brasil,2
+89,124.0,148,Feminino,43,Funcionário Público,Doutorado,17,Solteiro,Branco,2.0,11124,PE,Pernambuco,Nordeste,Brasil,1
+90,108.0,123,Feminino,57,Funcionário Setor Privado,Ensino Médio Completo,1,Casado,Branco,0.0,2297,AC,Acre,Norte,Brasil,1
+91,154.0,189,Feminino,37,Funcionário Setor Privado,Ensino Médio Completo,8,Divorciado,Branco,0.0,2899,ES,Espírito Santo,Sudeste,Brasil,2
+92,185.0,220,Feminino,28,Funcionário Setor Privado,Ensino Médio Completo,4,Divorciado,Negro,4.0,2901,AM,Amazonas,Norte,Brasil,0
+93,106.0,120,Masculino,30,Funcionário Setor Privado,Ensino Médio Incompleto,16,Casado,Pardo,5.0,1100,PR,Paraná,Sul,Brasil,1
+94,97.0,106,Masculino,34,Empresário,Ensino Médio Completo,13,Casado,Branco,3.0,4426,MG,Minas Gerais,Sudeste,Brasil,1
+95,96.0,105,Feminino,29,Empresário,Ensino Médio Completo,7,Solteiro,Branco,4.0,3942,DF,Distrito Federal,Centro-Oeste,Brasil,1
+96,129.0,157,Masculino,48,Autônomo,Doutorado,6,Casado,Branco,3.0,9784,CE,Ceará,Nordeste,Brasil,2
+97,124.0,149,Masculino,37,Funcionário Setor Privado,Ensino Médio Completo,13,Casado,Branco,4.0,2107,MG,Minas Gerais,Sudeste,Brasil,1
+98,149.0,185,Feminino,48,Funcionário Setor Privado,Ensino Médio Completo,7,Divorciado,Branco,1.0,2742,DF,Distrito Federal,Centro-Oeste,Brasil,2
+99,97.0,106,Feminino,32,Funcionário Público,Ensino Médio Incompleto,26,Solteiro,Negro,5.0,1837,SE,Sergipe,Nordeste,Brasil,1
+100,102.0,115,Masculino,76,Aposentado,Mestrado,9,Casado,Branco,0.0,2024,GO,Goiás,Centro-Oeste,Brasil,1
+101,146.0,177,Masculino,44,Funcionário Setor Privado,Ensino Médio Completo,9,Casado,Branco,0.0,3154,GO,Goiás,Centro-Oeste,Brasil,2
+103,100.0,108,Feminino,20,Funcionário Setor Privado,Ensino Médio Completo,13,Solteiro,Branco,0.0,3675,MG,Minas Gerais,Sudeste,Brasil,1
+104,118.0,140,Feminino,29,Funcionário Setor Privado,Ensino Médio Incompleto,14,Solteiro,Branco,1.0,1100,PA,Pará,Norte,Brasil,1
+105,179.0,214,Masculino,32,MEI,Ensino Médio Incompleto,21,Casado,Branco,4.0,6332,RS,Rio Grande do Sul,Sul,Brasil,0
+106,179.0,216,Masculino,17,Menor Aprendiz,Ensino Fundamental Completo,3,Solteiro,Branco,1.0,1100,AP,Amapá,Norte,Brasil,0
+107,113.0,130,Feminino,30,Funcionário Setor Privado,Superior Completo,26,Solteiro,Branco,0.0,7640,SE,Sergipe,Nordeste,Brasil,1
+108,142.0,169,Feminino,31,Empresário,Superior Incompleto,6,Solteiro,Branco,1.0,10089,CE,Ceará,Nordeste,Brasil,2
+109,101.0,110,Masculino,42,Funcionário Setor Privado,Pós-Graduado,3,Casado,Branco,2.0,6646,AP,Amapá,Norte,Brasil,1
+110,174.0,209,Masculino,24,Funcionário Setor Privado,Ensino Médio Completo,10,Solteiro,Branco,4.0,3967,MA,Maranhão,Nordeste,Brasil,0
+111,131.0,162,Masculino,38,Funcionário Setor Privado,Mestrado,2,Casado,Branco,4.0,6836,AL,Alagoas,Nordeste,Brasil,2
+112,179.0,214,Masculino,56,Autônomo,Ensino Médio Incompleto,5,Casado,Branco,4.0,1100,BA,Bahia,Nordeste,Brasil,0
+113,122.0,145,Masculino,28,Funcionário Setor Privado,Ensino Médio Completo,16,Casado,Branco,3.0,3179,PR,Paraná,Sul,Brasil,1
+114,105.0,116,Masculino,36,Funcionário Setor Privado,Ensino Médio Incompleto,15,Solteiro,Branco,3.0,1100,PB,Paraíba,Nordeste,Brasil,1
+115,176.0,209,Feminino,53,Funcionário Setor Privado,Ensino Fundamental Completo,6,Casado,Branco,5.0,1100,CE,Ceará,Nordeste,Brasil,0
+116,103.0,116,Masculino,56,MEI,Ensino Médio Completo,20,Casado,Branco,0.0,5386,RN,Rio Grande do Norte,Nordeste,Brasil,1
+117,120.0,139,Masculino,49,Empresário,Ensino Médio Completo,1,Casado,Negro,0.0,3043,AC,Acre,Norte,Brasil,1
+118,118.0,143,Masculino,55,Funcionário Setor Privado,Ensino Médio Completo,20,Casado,Branco,0.0,2373,RN,Rio Grande do Norte,Nordeste,Brasil,1
+119,143.0,168,Feminino,22,Funcionário Setor Privado,Ensino Médio Incompleto,26,Solteiro,Branco,2.0,1100,SE,Sergipe,Nordeste,Brasil,2
+120,134.0,158,Masculino,21,Funcionário Setor Privado,Ensino Médio Completo,13,Solteiro,Branco,0.0,3958,MG,Minas Gerais,Sudeste,Brasil,2
+121,203.0,232,Masculino,40,Funcionário Setor Privado,Ensino Médio Completo,27,Casado,Branco,0.0,2678,TO,Tocantins,Norte,Brasil,0
+122,116.0,136,Masculino,30,Funcionário Setor Privado,Ensino Médio Completo,25,Solteiro,Negro,4.0,3971,SP,São Paulo,Sudeste,Brasil,1
+123,150.0,180,Feminino,29,Servidor Público,Ensino Médio Completo,10,Casado,Branco,3.0,5712,MA,Maranhão,Nordeste,Brasil,2
+124,192.0,228,Feminino,19,Funcionário Setor Privado,Ensino Médio Completo,17,Solteiro,Negro,1.0,3296,PE,Pernambuco,Nordeste,Brasil,0
+125,187.0,222,Masculino,47,Funcionário Setor Privado,Ensino Médio Completo,16,Casado,Branco,3.0,3976,PR,Paraná,Sul,Brasil,0
+126,107.0,117,Feminino,20,Funcionário Setor Privado,Ensino Médio Completo,15,Solteiro,Branco,1.0,3020,PB,Paraíba,Nordeste,Brasil,1
+127,192.0,224,Masculino,31,Funcionário Setor Privado,Ensino Médio Completo,3,Casado,Branco,5.0,3781,AP,Amapá,Norte,Brasil,0
+128,97.0,104,Feminino,35,Funcionário Setor Privado,Ensino Médio Incompleto,1,Casado,Amarelo,4.0,1100,AC,Acre,Norte,Brasil,1
+129,157.0,195,Feminino,39,Funcionário Setor Privado,Ensino Médio Completo,4,Divorciado,Branco,3.0,2457,AM,Amazonas,Norte,Brasil,2
+130,128.0,156,Feminino,28,Funcionário Setor Privado,Ensino Médio Completo,8,Solteiro,Amarelo,1.0,2297,ES,Espírito Santo,Sudeste,Brasil,2
+131,183.0,213,Feminino,24,Funcionário Setor Privado,Ensino Médio Incompleto,15,Solteiro,Branco,5.0,1100,PB,Paraíba,Nordeste,Brasil,0
+132,112.0,133,Feminino,38,Autônomo,Ensino Médio Incompleto,17,Casado,Branco,0.0,1100,PE,Pernambuco,Nordeste,Brasil,1
+133,173.0,208,Masculino,37,Funcionário Setor Privado,Ensino Médio Completo,24,Casado,Branco,3.0,2816,SC,Santa Catarina,Sul,Brasil,0
+134,156.0,195,Feminino,46,Funcionário Setor Privado,Ensino Médio Completo,22,Divorciado,Negro,0.0,3095,RO,Rondônia,Norte,Brasil,2
+135,137.0,163,Feminino,38,Funcionário Público,Mestrado,17,Casado,Branco,5.0,9952,PE,Pernambuco,Nordeste,Brasil,2
+136,156.0,195,Feminino,43,Autônomo,Ensino Médio Incompleto,27,Casado,Branco,2.0,1100,TO,Tocantins,Norte,Brasil,2
+137,112.0,124,Feminino,27,Funcionário Setor Privado,Ensino Médio Completo,14,Casado,Amarelo,5.0,2485,PA,Pará,Norte,Brasil,1
+138,203.0,231,Masculino,20,Funcionário Setor Privado,Ensino Médio Completo,7,Solteiro,Branco,0.0,3892,DF,Distrito Federal,Centro-Oeste,Brasil,0
+139,141.0,172,Feminino,49,Funcionário Setor Privado,Ensino Médio Completo,8,Casado,Pardo,1.0,2835,ES,Espírito Santo,Sudeste,Brasil,2
+140,97.0,104,Masculino,61,MEI,Ensino Médio Incompleto,4,Casado,Branco,1.0,4285,AM,Amazonas,Norte,Brasil,1
+141,186.0,221,Feminino,27,Funcionário Setor Privado,Ensino Médio Completo,21,Solteiro,Branco,2.0,3592,RS,Rio Grande do Sul,Sul,Brasil,0
+142,113.0,128,Feminino,19,Funcionário Setor Privado,Ensino Médio Completo,3,Solteiro,Amarelo,1.0,2915,AP,Amapá,Norte,Brasil,1
+143,195.0,222,Feminino,45,Funcionário Setor Privado,Ensino Médio Completo,22,Solteiro,Branco,1.0,3256,RO,Rondônia,Norte,Brasil,0
+144,175.0,214,Masculino,70,Aposentado,Ensino Médio Completo,2,Solteiro,Branco,4.0,2616,AL,Alagoas,Nordeste,Brasil,0
+145,154.0,184,Masculino,31,Funcionário Setor Privado,Ensino Médio Incompleto,1,Solteiro,Negro,4.0,1100,AC,Acre,Norte,Brasil,2
+146,173.0,204,Masculino,22,Funcionário Setor Privado,Ensino Médio Completo,14,Casado,Amarelo,3.0,3613,PA,Pará,Norte,Brasil,0
+148,152.0,195,Masculino,64,Funcionário Setor Privado,Ensino Médio Incompleto,26,Casado,Branco,4.0,1100,SE,Sergipe,Nordeste,Brasil,2
+149,114.0,132,Masculino,43,Funcionário Setor Privado,Ensino Médio Completo,21,Divorciado,Branco,0.0,2490,RS,Rio Grande do Sul,Sul,Brasil,1
+150,181.0,214,Feminino,47,Empresário,Ensino Médio Completo,8,Divorciado,Branco,2.0,10360,ES,Espírito Santo,Sudeste,Brasil,0
+151,111.0,123,Masculino,34,Funcionário Setor Privado,Ensino Médio Incompleto,25,Solteiro,Branco,1.0,1100,SP,São Paulo,Sudeste,Brasil,1
+152,200.0,233,Masculino,33,Funcionário Setor Privado,Ensino Médio Completo,27,Solteiro,Pardo,2.0,2926,TO,Tocantins,Norte,Brasil,0
+153,100.0,107,Masculino,21,Funcionário Setor Privado,Ensino Médio Incompleto,2,Solteiro,Branco,3.0,1100,AL,Alagoas,Nordeste,Brasil,1
+154,134.0,162,Feminino,52,Funcionário Setor Privado,Ensino Médio Incompleto,18,Divorciado,Branco,1.0,1100,PI,Piauí,Nordeste,Brasil,2
+155,167.0,204,Masculino,48,Funcionário Setor Privado,Ensino Médio Incompleto,4,Casado,Branco,1.0,1100,AM,Amazonas,Norte,Brasil,0
+156,198.0,227,Masculino,23,Funcionário Setor Privado,Ensino Médio Completo,26,Solteiro,Amarelo,1.0,3272,SE,Sergipe,Nordeste,Brasil,0
+157,151.0,185,Masculino,71,Aposentado,Ensino Médio Completo,5,Separado,Negro,5.0,5075,BA,Bahia,Nordeste,Brasil,2
+158,121.0,142,Masculino,29,Funcionário Setor Privado,Ensino Médio Incompleto,7,Divorciado,Branco,1.0,1100,DF,Distrito Federal,Centro-Oeste,Brasil,1
+159,196.0,225,Feminino,42,Funcionário Setor Privado,Ensino Médio Completo,10,Separado,Negro,5.0,3511,MA,Maranhão,Nordeste,Brasil,0
+160,171.0,212,Masculino,68,Aposentado,Ensino Fundamental Incompleto,14,Divorciado,Branco,0.0,2480,PA,Pará,Norte,Brasil,0
+161,135.0,161,Feminino,25,Funcionário Setor Privado,Ensino Médio Incompleto,19,Solteiro,Branco,5.0,1100,RJ,Rio de Janeiro,Sudeste,Brasil,2
+162,186.0,220,Masculino,44,MEI,Mestrado,24,Divorciado,Pardo,4.0,3829,SC,Santa Catarina,Sul,Brasil,0
+163,138.0,168,Feminino,28,Funcionário Setor Privado,Ensino Médio Incompleto,27,Solteiro,Pardo,1.0,1100,TO,Tocantins,Norte,Brasil,2
+164,133.0,155,Feminino,45,Autônomo,Mestrado,13,Casado,Branco,1.0,6871,MG,Minas Gerais,Sudeste,Brasil,2
+165,107.0,125,Feminino,36,Funcionário Setor Privado,Ensino Médio Completo,25,Divorciado,Branco,1.0,3183,SP,São Paulo,Sudeste,Brasil,1
+166,120.0,144,Feminino,39,Funcionário Público,Ensino Médio Completo,12,Solteiro,Branco,0.0,3630,MS,Mato Grosso do Sul,Centro-Oeste,Brasil,1
+167,168.0,201,Masculino,46,Servidor Público,Mestrado,14,Viúvo,Amarelo,2.0,8107,PA,Pará,Norte,Brasil,0
+168,184.0,222,Masculino,18,Funcionário Setor Privado,Ensino Médio Incompleto,19,Solteiro,Amarelo,2.0,1100,RJ,Rio de Janeiro,Sudeste,Brasil,0
+169,154.0,189,Masculino,66,Aposentado,Ensino Médio Completo,21,Viúvo,Branco,3.0,5889,RS,Rio Grande do Sul,Sul,Brasil,2
+170,115.0,132,Feminino,27,Funcionário Setor Privado,Ensino Médio Incompleto,21,Solteiro,Branco,2.0,1100,RS,Rio Grande do Sul,Sul,Brasil,1
+171,168.0,204,Feminino,28,Servidor Público,Ensino Médio Incompleto,14,Casado,Branco,0.0,1313,PA,Pará,Norte,Brasil,0
+172,161.0,201,Feminino,51,Funcionário Setor Privado,Ensino Médio Completo,8,Casado,Branco,5.0,3272,ES,Espírito Santo,Sudeste,Brasil,0
+173,171.0,211,Feminino,27,Funcionário Setor Privado,Ensino Médio Completo,9,Solteiro,Branco,1.0,2547,GO,Goiás,Centro-Oeste,Brasil,0
+174,129.0,156,Masculino,28,Servidor Público,Ensino Médio Completo,27,Casado,Branco,0.0,5059,TO,Tocantins,Norte,Brasil,2
+175,150.0,179,Masculino,27,Funcionário Setor Privado,Ensino Médio Incompleto,24,União Estável,Branco,3.0,1100,SC,Santa Catarina,Sul,Brasil,2
+176,118.0,129,Feminino,21,Funcionário Setor Privado,Ensino Médio Incompleto,19,Solteiro,Negro,4.0,1100,RJ,Rio de Janeiro,Sudeste,Brasil,1
+177,154.0,185,Feminino,34,Funcionário Setor Privado,Ensino Médio Incompleto,17,Solteiro,Negro,5.0,1100,PE,Pernambuco,Nordeste,Brasil,2
+178,103.0,107,Masculino,18,Funcionário Setor Privado,Ensino Médio Incompleto,17,Solteiro,Branco,1.0,1100,PE,Pernambuco,Nordeste,Brasil,1
+179,180.0,213,Masculino,33,Funcionário Setor Privado,Ensino Médio Completo,19,Casado,Branco,3.0,3450,RJ,Rio de Janeiro,Sudeste,Brasil,0
+180,141.0,172,Feminino,44,Empresário,Ensino Médio Completo,11,Casado,Negro,0.0,2441,MT,Mato Grosso,Centro-Oeste,Brasil,2
+181,152.0,193,Masculino,43,Funcionário Setor Privado,Ensino Médio Completo,27,Divorciado,Branco,5.0,3377,TO,Tocantins,Norte,Brasil,2
+182,104.0,114,Masculino,30,Funcionário Setor Privado,Ensino Médio Completo,1,Solteiro,Negro,2.0,3229,AC,Acre,Norte,Brasil,1
+183,159.0,202,Masculino,40,Funcionário Setor Privado,Ensino Fundamental Incompleto,17,Casado,Branco,3.0,1100,PE,Pernambuco,Nordeste,Brasil,0
+184,191.0,222,Feminino,37,Funcionário Público,Ensino Médio Completo,25,Casado,Branco,3.0,3915,SP,São Paulo,Sudeste,Brasil,0
+185,142.0,168,Feminino,34,Funcionário Setor Privado,Ensino Médio Incompleto,7,Casado,Negro,0.0,1100,DF,Distrito Federal,Centro-Oeste,Brasil,2
+186,123.0,146,Masculino,41,Autônomo,Ensino Médio Completo,15,Divorciado,Branco,3.0,3232,PB,Paraíba,Nordeste,Brasil,1
+187,135.0,170,Feminino,53,Funcionário Setor Privado,Ensino Médio Completo,16,Divorciado,Branco,1.0,3477,PR,Paraná,Sul,Brasil,2
+188,132.0,165,Masculino,31,Funcionário Setor Privado,Mestrado,12,Casado,Branco,3.0,10280,MS,Mato Grosso do Sul,Centro-Oeste,Brasil,2
+189,158.0,196,Feminino,58,Servidor Público,Doutorado,10,Casado,Branco,0.0,13404,MA,Maranhão,Nordeste,Brasil,2
+190,181.0,224,Feminino,38,Funcionário Setor Privado,Ensino Médio Completo,27,Divorciado,Negro,2.0,2369,TO,Tocantins,Norte,Brasil,0
+191,105.0,108,Masculino,24,Funcionário Setor Privado,Ensino Médio Completo,25,Casado,Branco,4.0,2162,SP,São Paulo,Sudeste,Brasil,1
+192,126.0,149,Feminino,41,Empresário,Superior Completo,4,Casado,Negro,1.0,2626,AM,Amazonas,Norte,Brasil,1
+193,186.0,224,Feminino,47,Funcionário Setor Privado,Superior Incompleto,20,Casado,Amarelo,5.0,2414,RN,Rio Grande do Norte,Nordeste,Brasil,0
+194,116.0,136,Feminino,41,Funcionário Público,Pós-Graduado,20,Casado,Amarelo,0.0,7564,RN,Rio Grande do Norte,Nordeste,Brasil,1
+195,124.0,152,Feminino,23,Funcionário Setor Privado,Ensino Fundamental Incompleto,19,Casado,Branco,1.0,1100,RJ,Rio de Janeiro,Sudeste,Brasil,2
+197,115.0,135,Masculino,40,Funcionário Público,Mestrado,17,Solteiro,Amarelo,4.0,7352,PE,Pernambuco,Nordeste,Brasil,1
+198,173.0,211,Masculino,35,Funcionário Setor Privado,Mestrado,26,Casado,Branco,4.0,8748,SE,Sergipe,Nordeste,Brasil,0
+199,128.0,156,Masculino,24,Autônomo,Ensino Médio Incompleto,2,Solteiro,Branco,2.0,1100,AL,Alagoas,Nordeste,Brasil,2
+200,103.0,115,Masculino,26,Funcionário Setor Privado,Mestrado,18,Solteiro,Branco,5.0,9089,PI,Piauí,Nordeste,Brasil,1
+201,120.0,143,Masculino,19,Funcionário Setor Privado,Ensino Médio Incompleto,18,Solteiro,Amarelo,0.0,1100,PI,Piauí,Nordeste,Brasil,1
+202,146.0,179,Masculino,51,Funcionário Setor Privado,Ensino Médio Completo,25,Casado,Branco,3.0,2699,SP,São Paulo,Sudeste,Brasil,2
+203,145.0,173,Feminino,42,Empresário,Ensino Médio Completo,22,Solteiro,Amarelo,5.0,3408,RO,Rondônia,Norte,Brasil,2
+204,125.0,148,Feminino,37,Servidor Público,Ensino Médio Incompleto,27,Divorciado,Branco,4.0,1832,TO,Tocantins,Norte,Brasil,1
+205,109.0,127,Feminino,18,Funcionário Setor Privado,Ensino Médio Incompleto,4,Solteiro,Amarelo,0.0,1100,AM,Amazonas,Norte,Brasil,1
+206,156.0,194,Feminino,36,Funcionário Setor Privado,Ensino Médio Completo,10,Casado,Negro,0.0,3633,MA,Maranhão,Nordeste,Brasil,2
+207,187.0,225,Feminino,35,Funcionário Setor Privado,Ensino Médio Incompleto,19,Divorciado,Branco,5.0,1100,RJ,Rio de Janeiro,Sudeste,Brasil,0
+208,110.0,127,Masculino,58,MEI,Ensino Médio Incompleto,6,Casado,Branco,4.0,4559,CE,Ceará,Nordeste,Brasil,1
+209,100.0,106,Masculino,17,Menor Aprendiz,Ensino Médio Incompleto,16,Solteiro,Branco,2.0,1100,PR,Paraná,Sul,Brasil,1
+210,97.0,112,Feminino,44,Empresário,Ensino Médio Incompleto,2,Casado,Negro,3.0,3177,AL,Alagoas,Nordeste,Brasil,1
+211,133.0,164,Masculino,37,Funcionário Setor Privado,Ensino Médio Incompleto,8,Casado,Branco,5.0,1100,ES,Espírito Santo,Sudeste,Brasil,2
+212,128.0,151,Masculino,35,Funcionário Setor Privado,Ensino Médio Completo,19,Solteiro,Indígena,2.0,2833,RJ,Rio de Janeiro,Sudeste,Brasil,2
+213,154.0,191,Feminino,60,Funcionário Setor Privado,Ensino Médio Incompleto,16,Casado,Pardo,4.0,1100,PR,Paraná,Sul,Brasil,2
+214,100.0,110,Feminino,54,MEI,Ensino Fundamental Incompleto,11,Casado,Branco,5.0,4752,MT,Mato Grosso,Centro-Oeste,Brasil,1
+215,104.0,116,Masculino,37,Funcionário Setor Privado,Ensino Médio Completo,22,Solteiro,Negro,1.0,2144,RO,Rondônia,Norte,Brasil,1
+217,203.0,235,Feminino,38,Funcionário Setor Privado,Ensino Médio Completo,26,Casado,Branco,5.0,2974,SE,Sergipe,Nordeste,Brasil,0
+218,104.0,108,Feminino,45,Funcionário Setor Privado,Ensino Médio Completo,15,Casado,Amarelo,1.0,3355,PB,Paraíba,Nordeste,Brasil,1
+219,119.0,141,Feminino,25,Funcionário Setor Privado,Ensino Fundamental Completo,5,Solteiro,Branco,3.0,1100,BA,Bahia,Nordeste,Brasil,1
+220,181.0,219,Masculino,31,Funcionário Setor Privado,Ensino Médio Completo,26,Casado,Amarelo,5.0,2202,SE,Sergipe,Nordeste,Brasil,0
+221,180.0,219,Masculino,64,Funcionário Setor Privado,Ensino Fundamental Incompleto,11,Divorciado,Branco,0.0,1100,MT,Mato Grosso,Centro-Oeste,Brasil,0
+222,116.0,138,Feminino,90,Aposentado,Ensino Médio Incompleto,14,Solteiro,Negro,3.0,1741,PA,Pará,Norte,Brasil,1
+223,144.0,169,Feminino,54,Funcionário Setor Privado,Ensino Médio Incompleto,27,Casado,Negro,5.0,1100,TO,Tocantins,Norte,Brasil,2
+224,102.0,116,Masculino,53,Empresário,Analfabeto,27,Solteiro,Branco,0.0,6333,TO,Tocantins,Norte,Brasil,1
+225,176.0,212,Masculino,18,Funcionário Setor Privado,Ensino Médio Incompleto,13,Solteiro,Branco,1.0,1100,MG,Minas Gerais,Sudeste,Brasil,0
+226,135.0,162,Masculino,60,Funcionário Setor Privado,Ensino Fundamental Completo,24,Divorciado,Indígena,4.0,1100,SC,Santa Catarina,Sul,Brasil,2
+227,184.0,220,Masculino,66,Aposentado,Ensino Médio Incompleto,10,Casado,Branco,1.0,4678,MA,Maranhão,Nordeste,Brasil,0
+228,124.0,151,Masculino,75,Aposentado,Ensino Médio Completo,19,Viúvo,Branco,0.0,6209,RJ,Rio de Janeiro,Sudeste,Brasil,2
+229,110.0,119,Masculino,65,Funcionário Setor Privado,Ensino Médio Incompleto,6,Divorciado,Branco,0.0,1100,CE,Ceará,Nordeste,Brasil,1
+230,180.0,212,Feminino,35,Funcionário Setor Privado,Ensino Médio Incompleto,18,Separado,Negro,4.0,1100,PI,Piauí,Nordeste,Brasil,0
+231,103.0,111,Masculino,41,Funcionário Setor Privado,Ensino Médio Incompleto,22,Divorciado,Negro,4.0,1100,RO,Rondônia,Norte,Brasil,1
+232,117.0,142,Masculino,25,Funcionário Setor Privado,Ensino Médio Completo,15,Solteiro,Branco,4.0,2486,PB,Paraíba,Nordeste,Brasil,1
+233,120.0,138,Masculino,33,Funcionário Setor Privado,Ensino Médio Completo,16,Divorciado,Amarelo,0.0,3565,PR,Paraná,Sul,Brasil,1
+234,145.0,172,Feminino,28,Funcionário Setor Privado,Mestrado,26,Solteiro,Branco,2.0,10671,SE,Sergipe,Nordeste,Brasil,2
+235,133.0,158,Masculino,59,Servidor Público,Ensino Médio Incompleto,26,Casado,Branco,1.0,1964,SE,Sergipe,Nordeste,Brasil,2
+236,201.0,228,Masculino,40,Servidor Público,Ensino Médio Completo,7,Solteiro,Branco,1.0,3951,DF,Distrito Federal,Centro-Oeste,Brasil,0
+237,117.0,134,Masculino,41,Funcionário Setor Privado,Ensino Médio Completo,15,Casado,Branco,2.0,2324,PB,Paraíba,Nordeste,Brasil,1
+238,146.0,181,Feminino,38,Empresário,Mestrado,27,Casado,Branco,3.0,17679,TO,Tocantins,Norte,Brasil,2
+239,195.0,231,Feminino,23,Funcionário Setor Privado,Ensino Médio Incompleto,10,Solteiro,Branco,2.0,1100,MA,Maranhão,Nordeste,Brasil,0
+240,188.0,223,Masculino,40,Funcionário Setor Privado,Ensino Médio Completo,25,Casado,Branco,0.0,2862,SP,São Paulo,Sudeste,Brasil,0
+241,108.0,121,Feminino,41,Autônomo,Ensino Médio Incompleto,3,Casado,Branco,1.0,1100,AP,Amapá,Norte,Brasil,1
+242,191.0,222,Masculino,24,Servidor Público,Ensino Médio Completo,16,Casado,Branco,4.0,5500,PR,Paraná,Sul,Brasil,0
+243,100.0,102,Feminino,20,Funcionário Setor Privado,Ensino Médio Completo,17,Solteiro,Branco,1.0,3803,PE,Pernambuco,Nordeste,Brasil,1
+244,158.0,195,Feminino,38,Funcionário Setor Privado,Ensino Médio Completo,15,Divorciado,Branco,1.0,2264,PB,Paraíba,Nordeste,Brasil,2
+245,127.0,156,Feminino,56,Funcionário Setor Privado,Ensino Médio Incompleto,1,Casado,Branco,5.0,1100,AC,Acre,Norte,Brasil,2
+246,181.0,214,Feminino,58,Funcionário Setor Privado,Ensino Médio Incompleto,6,Casado,Branco,4.0,1100,CE,Ceará,Nordeste,Brasil,0
+247,113.0,132,Feminino,32,Funcionário Setor Privado,Ensino Médio Incompleto,4,Solteiro,Branco,2.0,1100,AM,Amazonas,Norte,Brasil,1
+248,171.0,204,Masculino,40,Funcionário Setor Privado,Ensino Médio Completo,27,Casado,Branco,2.0,3047,TO,Tocantins,Norte,Brasil,0
+249,153.0,190,Feminino,45,Funcionário Setor Privado,Ensino Médio Incompleto,2,Casado,Branco,3.0,1100,AL,Alagoas,Nordeste,Brasil,2
+250,137.0,167,Feminino,41,Funcionário Setor Privado,Mestrado,8,Casado,Branco,0.0,8479,ES,Espírito Santo,Sudeste,Brasil,2
+251,154.0,195,Feminino,42,Funcionário Setor Privado,Ensino Médio Completo,17,Casado,Negro,3.0,2615,PE,Pernambuco,Nordeste,Brasil,2
+252,112.0,127,Feminino,59,Empresário,Ensino Fundamental Completo,2,Viúvo,Negro,1.0,14102,AL,Alagoas,Nordeste,Brasil,1
+253,201.0,235,Masculino,19,Empresário,Ensino Médio Completo,4,Solteiro,Branco,0.0,8306,AM,Amazonas,Norte,Brasil,0
+254,141.0,171,Feminino,58,Funcionário Setor Privado,Ensino Médio Completo,1,Solteiro,Branco,0.0,2654,AC,Acre,Norte,Brasil,2
+255,100.0,110,Masculino,42,Autônomo,Ensino Médio Incompleto,2,Casado,Pardo,5.0,1100,AL,Alagoas,Nordeste,Brasil,1
+256,185.0,221,Feminino,20,Funcionário Setor Privado,Ensino Médio Incompleto,15,Solteiro,Branco,2.0,1100,PB,Paraíba,Nordeste,Brasil,0
+257,111.0,128,Feminino,32,Funcionário Setor Privado,Ensino Médio Incompleto,22,Separado,Branco,5.0,1100,RO,Rondônia,Norte,Brasil,1
+258,191.0,226,Feminino,45,Funcionário Setor Privado,Ensino Médio Completo,4,Viúvo,Branco,5.0,2944,AM,Amazonas,Norte,Brasil,0
+259,176.0,208,Masculino,50,Funcionário Setor Privado,Ensino Fundamental Incompleto,26,Divorciado,Branco,1.0,1100,SE,Sergipe,Nordeste,Brasil,0
+260,150.0,191,Masculino,36,Funcionário Setor Privado,Ensino Médio Completo,12,Divorciado,Branco,1.0,3408,MS,Mato Grosso do Sul,Centro-Oeste,Brasil,2
+261,171.0,205,Masculino,45,Funcionário Setor Privado,Ensino Médio Incompleto,13,Casado,Branco,2.0,1100,MG,Minas Gerais,Sudeste,Brasil,0
+262,140.0,173,Masculino,17,Menor Aprendiz,Ensino Médio Incompleto,24,Solteiro,Branco,2.0,1100,SC,Santa Catarina,Sul,Brasil,2
+263,153.0,191,Masculino,59,Funcionário Setor Privado,Ensino Médio Completo,27,Casado,Branco,1.0,3381,TO,Tocantins,Norte,Brasil,2
+264,111.0,128,Masculino,26,Funcionário Setor Privado,Ensino Médio Incompleto,25,Casado,Branco,2.0,1100,SP,São Paulo,Sudeste,Brasil,1
+265,180.0,220,Feminino,37,MEI,Ensino Médio Completo,15,Casado,Pardo,1.0,5020,PB,Paraíba,Nordeste,Brasil,0
+266,107.0,126,Masculino,19,Funcionário Setor Privado,Ensino Médio Completo,15,Solteiro,Branco,0.0,3472,PB,Paraíba,Nordeste,Brasil,1
+267,197.0,232,Masculino,64,Funcionário Setor Privado,Ensino Médio Incompleto,5,Casado,Branco,1.0,1100,BA,Bahia,Nordeste,Brasil,0
+268,101.0,108,Masculino,33,Funcionário Setor Privado,Ensino Médio Completo,10,Solteiro,Branco,4.0,2817,MA,Maranhão,Nordeste,Brasil,1
+269,132.0,159,Feminino,33,Funcionário Setor Privado,Ensino Médio Incompleto,13,Casado,Branco,3.0,1100,MG,Minas Gerais,Sudeste,Brasil,2
+270,168.0,211,Masculino,61,Funcionário Setor Privado,Ensino Médio Incompleto,24,Casado,Branco,3.0,1100,SC,Santa Catarina,Sul,Brasil,0
+271,200.0,232,Masculino,17,Menor Aprendiz,Ensino Fundamental Completo,8,Solteiro,Branco,0.0,1100,ES,Espírito Santo,Sudeste,Brasil,0
+272,150.0,182,Masculino,50,Autônomo,Mestrado,8,Casado,Branco,5.0,7431,ES,Espírito Santo,Sudeste,Brasil,2
+273,119.0,145,Masculino,27,Empresário,Mestrado,27,Solteiro,Branco,0.0,11991,TO,Tocantins,Norte,Brasil,1
+274,197.0,224,Feminino,30,Funcionário Setor Privado,Ensino Médio Incompleto,10,Divorciado,Branco,5.0,1100,MA,Maranhão,Nordeste,Brasil,0
+275,172.0,209,Masculino,43,Funcionário Setor Privado,Ensino Médio Incompleto,4,Casado,Negro,1.0,1100,AM,Amazonas,Norte,Brasil,0
+276,134.0,160,Feminino,44,Funcionário Setor Privado,Ensino Médio Completo,3,Casado,Branco,0.0,3782,AP,Amapá,Norte,Brasil,2
+277,185.0,219,Masculino,35,Funcionário Setor Privado,Ensino Médio Completo,26,Solteiro,Branco,2.0,3933,SE,Sergipe,Nordeste,Brasil,0
+278,135.0,170,Feminino,25,Funcionário Setor Privado,Ensino Médio Completo,18,Solteiro,Branco,2.0,2804,PI,Piauí,Nordeste,Brasil,2
+279,132.0,161,Feminino,24,Funcionário Setor Privado,Ensino Médio Completo,20,Casado,Branco,2.0,3627,RN,Rio Grande do Norte,Nordeste,Brasil,2
+280,109.0,122,Feminino,22,Funcionário Setor Privado,Ensino Médio Completo,27,Solteiro,Branco,2.0,2650,TO,Tocantins,Norte,Brasil,1
+281,116.0,141,Feminino,42,Empresário,Ensino Médio Completo,20,Casado,Branco,1.0,6407,RN,Rio Grande do Norte,Nordeste,Brasil,1
+282,170.0,204,Masculino,34,Funcionário Setor Privado,Ensino Médio Completo,19,Divorciado,Negro,5.0,2004,RJ,Rio de Janeiro,Sudeste,Brasil,0
+283,187.0,226,Masculino,60,Funcionário Setor Privado,Ensino Médio Completo,11,Divorciado,Branco,0.0,3305,MT,Mato Grosso,Centro-Oeste,Brasil,0
+284,154.0,187,Masculino,21,Funcionário Setor Privado,Ensino Médio Incompleto,17,Solteiro,Branco,2.0,1100,PE,Pernambuco,Nordeste,Brasil,2
+285,111.0,129,Feminino,57,Funcionário Público,Mestrado,23,Casado,Branco,4.0,9054,RR,Roraima,Norte,Brasil,1
+286,169.0,199,Feminino,41,Funcionário Setor Privado,Mestrado,11,Casado,Branco,5.0,6611,MT,Mato Grosso,Centro-Oeste,Brasil,0
+287,161.0,199,Feminino,50,Funcionário Setor Privado,Ensino Médio Completo,9,Divorciado,Branco,0.0,2785,GO,Goiás,Centro-Oeste,Brasil,0
+288,174.0,214,Feminino,25,Funcionário Setor Privado,Ensino Médio Completo,20,Solteiro,Branco,4.0,2759,RN,Rio Grande do Norte,Nordeste,Brasil,0
+289,125.0,159,Masculino,50,Funcionário Setor Privado,Ensino Fundamental Incompleto,18,Casado,Branco,5.0,1100,PI,Piauí,Nordeste,Brasil,2
+290,148.0,176,Masculino,36,Funcionário Setor Privado,Ensino Médio Completo,27,Casado,Branco,3.0,3384,TO,Tocantins,Norte,Brasil,2
+291,117.0,129,Feminino,31,Funcionário Setor Privado,Ensino Médio Incompleto,14,Divorciado,Branco,0.0,1100,PA,Pará,Norte,Brasil,1
+292,154.0,187,Feminino,29,Empresário,Superior Completo,4,Solteiro,Branco,0.0,17682,AM,Amazonas,Norte,Brasil,2
+293,104.0,109,Masculino,21,Funcionário Setor Privado,Superior Incompleto,14,Solteiro,Branco,0.0,3324,PA,Pará,Norte,Brasil,1
+294,183.0,212,Masculino,27,Funcionário Setor Privado,Pós-Graduado,27,Solteiro,Negro,1.0,10629,TO,Tocantins,Norte,Brasil,0
+295,142.0,170,Feminino,65,Funcionário Setor Privado,Ensino Médio Incompleto,13,Casado,Branco,1.0,1100,MG,Minas Gerais,Sudeste,Brasil,2
+296,155.0,191,Masculino,37,MEI,Ensino Médio Completo,18,Divorciado,Branco,2.0,4300,PI,Piauí,Nordeste,Brasil,2
+297,105.0,116,Masculino,39,Funcionário Setor Privado,Mestrado,24,Casado,Pardo,5.0,2,SC,Santa Catarina,Sul,Brasil,1
+298,160.0,202,Masculino,24,Funcionário Setor Privado,Ensino Médio Incompleto,3,Solteiro,Branco,4.0,1100,AP,Amapá,Norte,Brasil,0
+299,191.0,226,Feminino,38,Funcionário Setor Privado,Ensino Médio Incompleto,15,Divorciado,Branco,1.0,1100,PB,Paraíba,Nordeste,Brasil,0
+300,140.0,166,Feminino,48,Funcionário Setor Privado,Ensino Médio Completo,7,Casado,Branco,0.0,3643,DF,Distrito Federal,Centro-Oeste,Brasil,2
+301,123.0,151,Masculino,21,Funcionário Setor Privado,Ensino Médio Completo,10,Solteiro,Pardo,5.0,3330,MA,Maranhão,Nordeste,Brasil,1
+302,136.0,170,Feminino,31,Funcionário Setor Privado,Ensino Médio Incompleto,14,Casado,Branco,2.0,1100,PA,Pará,Norte,Brasil,2
+303,132.0,166,Masculino,55,Funcionário Setor Privado,Ensino Médio Incompleto,16,Casado,Branco,5.0,1100,PR,Paraná,Sul,Brasil,2
+304,158.0,193,Feminino,24,Funcionário Setor Privado,Ensino Médio Completo,4,Casado,Pardo,3.0,3661,AM,Amazonas,Norte,Brasil,2
+305,182.0,218,Feminino,43,Funcionário Setor Privado,Ensino Médio Incompleto,13,Divorciado,Branco,5.0,1100,MG,Minas Gerais,Sudeste,Brasil,0
+306,104.0,109,Masculino,26,Funcionário Setor Privado,Ensino Médio Completo,26,Solteiro,Branco,1.0,3906,SE,Sergipe,Nordeste,Brasil,1
+307,126.0,152,Feminino,46,Funcionário Setor Privado,Ensino Médio Completo,6,Solteiro,Branco,4.0,2150,CE,Ceará,Nordeste,Brasil,2
+308,188.0,220,Feminino,35,Funcionário Setor Privado,Ensino Médio Completo,19,Casado,Branco,1.0,2020,RJ,Rio de Janeiro,Sudeste,Brasil,0
+309,118.0,133,Feminino,41,MEI,Ensino Médio Completo,9,Casado,Branco,3.0,5749,GO,Goiás,Centro-Oeste,Brasil,1
+310,127.0,152,Feminino,26,Funcionário Setor Privado,Ensino Médio Completo,24,Solteiro,Branco,5.0,2230,SC,Santa Catarina,Sul,Brasil,2
+311,123.0,142,Feminino,34,Funcionário Setor Privado,Mestrado,7,Casado,Pardo,0.0,9095,DF,Distrito Federal,Centro-Oeste,Brasil,1
+312,118.0,131,Masculino,19,Funcionário Setor Privado,Ensino Médio Completo,24,Solteiro,Negro,0.0,2856,SC,Santa Catarina,Sul,Brasil,1
+313,169.0,204,Masculino,36,Autônomo,Ensino Médio Completo,13,Divorciado,Negro,3.0,2097,MG,Minas Gerais,Sudeste,Brasil,0
+314,128.0,153,Masculino,22,Funcionário Setor Privado,Ensino Médio Completo,13,Solteiro,Branco,3.0,3912,MG,Minas Gerais,Sudeste,Brasil,2
+315,106.0,114,Masculino,24,Funcionário Setor Privado,Ensino Médio Completo,8,Solteiro,Branco,0.0,2901,ES,Espírito Santo,Sudeste,Brasil,1
+316,119.0,144,Masculino,77,Aposentado,Ensino Médio Completo,16,Casado,Branco,3.0,5681,PR,Paraná,Sul,Brasil,1
+317,147.0,172,Masculino,22,Funcionário Setor Privado,Ensino Fundamental Incompleto,21,Casado,Branco,3.0,1100,RS,Rio Grande do Sul,Sul,Brasil,2
+318,141.0,176,Feminino,29,Funcionário Setor Privado,Ensino Médio Completo,22,Solteiro,Branco,1.0,3888,RO,Rondônia,Norte,Brasil,2
+319,125.0,150,Feminino,62,Funcionário Setor Privado,Ensino Médio Incompleto,2,Viúvo,Branco,3.0,1100,AL,Alagoas,Nordeste,Brasil,2
+320,109.0,129,Feminino,39,Autônomo,Ensino Médio Incompleto,15,Casado,Branco,0.0,1100,PB,Paraíba,Nordeste,Brasil,1
+321,158.0,190,Feminino,43,Funcionário Setor Privado,Ensino Médio Completo,5,Casado,Branco,1.0,2298,BA,Bahia,Nordeste,Brasil,2
+322,190.0,226,Feminino,35,Funcionário Setor Privado,Ensino Médio Incompleto,9,Divorciado,Branco,3.0,1100,GO,Goiás,Centro-Oeste,Brasil,0
+323,110.0,128,Masculino,29,Funcionário Setor Privado,Ensino Médio Incompleto,19,Solteiro,Branco,3.0,1100,RJ,Rio de Janeiro,Sudeste,Brasil,1
+324,99.0,106,Masculino,76,Aposentado,Mestrado,22,Casado,Branco,3.0,3393,RO,Rondônia,Norte,Brasil,1
+325,98.0,107,Feminino,63,Autônomo,Ensino Médio Incompleto,17,Casado,Branco,3.0,1100,PE,Pernambuco,Nordeste,Brasil,1
+326,134.0,159,Masculino,23,Funcionário Setor Privado,Ensino Médio Completo,4,Solteiro,Negro,1.0,3589,AM,Amazonas,Norte,Brasil,2
+327,129.0,157,Masculino,43,Funcionário Setor Privado,Ensino Médio Completo,22,Casado,Branco,2.0,2949,RO,Rondônia,Norte,Brasil,2
+328,154.0,192,Feminino,58,Autônomo,Ensino Médio Incompleto,7,Casado,Branco,2.0,1100,DF,Distrito Federal,Centro-Oeste,Brasil,2
+329,100.0,110,Feminino,66,Aposentado,Ensino Médio Incompleto,6,Solteiro,Branco,4.0,3120,CE,Ceará,Nordeste,Brasil,1
+330,107.0,115,Masculino,41,Funcionário Setor Privado,Ensino Médio Completo,5,Solteiro,Negro,1.0,3063,BA,Bahia,Nordeste,Brasil,1
+331,149.0,183,Masculino,26,Funcionário Setor Privado,Ensino Médio Completo,2,Solteiro,Branco,5.0,3939,AL,Alagoas,Nordeste,Brasil,2
+332,203.0,233,Feminino,47,Funcionário Setor Privado,Ensino Médio Completo,17,Solteiro,Branco,2.0,3301,PE,Pernambuco,Nordeste,Brasil,0
+333,101.0,112,Feminino,55,Empresário,Ensino Fundamental Completo,26,Casado,Branco,0.0,14090,SE,Sergipe,Nordeste,Brasil,1
+334,119.0,146,Feminino,53,Funcionário Setor Privado,Ensino Médio Incompleto,11,Casado,Branco,5.0,1100,MT,Mato Grosso,Centro-Oeste,Brasil,1
+335,182.0,222,Masculino,17,Menor Aprendiz,Ensino Fundamental Incompleto,3,Solteiro,Branco,2.0,1100,AP,Amapá,Norte,Brasil,0
+336,181.0,216,Masculino,30,Funcionário Setor Privado,Ensino Médio Incompleto,27,Solteiro,Branco,0.0,1100,TO,Tocantins,Norte,Brasil,0
+337,115.0,134,Feminino,49,Funcionário Setor Privado,Mestrado,11,Solteiro,Branco,2.0,9473,MT,Mato Grosso,Centro-Oeste,Brasil,1
+338,145.0,174,Feminino,19,Funcionário Setor Privado,Ensino Médio Incompleto,14,Solteiro,Negro,0.0,1100,PA,Pará,Norte,Brasil,2
+339,102.0,114,Masculino,45,Funcionário Setor Privado,Ensino Médio Incompleto,26,Casado,Negro,4.0,1100,SE,Sergipe,Nordeste,Brasil,1
+340,176.0,211,Masculino,26,Funcionário Setor Privado,Ensino Médio Completo,18,Solteiro,Branco,2.0,2564,PI,Piauí,Nordeste,Brasil,0
+341,134.0,167,Masculino,38,Funcionário Setor Privado,Ensino Médio Completo,12,Casado,Branco,1.0,3205,MS,Mato Grosso do Sul,Centro-Oeste,Brasil,2
+342,183.0,214,Masculino,36,Servidor Público,Ensino Médio Incompleto,10,Casado,Branco,5.0,1783,MA,Maranhão,Nordeste,Brasil,0
+343,123.0,145,Masculino,33,Funcionário Setor Privado,Ensino Médio Incompleto,1,Solteiro,Branco,4.0,1100,AC,Acre,Norte,Brasil,1
+344,108.0,120,Masculino,22,Servidor Público,Ensino Médio Completo,2,Solteiro,Negro,3.0,4320,AL,Alagoas,Nordeste,Brasil,1
+345,177.0,217,Feminino,43,Autônomo,Ensino Médio Completo,18,Solteiro,Branco,3.0,3110,PI,Piauí,Nordeste,Brasil,0
+346,104.0,113,Masculino,67,Aposentado,Ensino Médio Incompleto,12,Casado,Branco,0.0,5757,MS,Mato Grosso do Sul,Centro-Oeste,Brasil,1
+347,117.0,141,Masculino,30,Funcionário Setor Privado,Ensino Médio Completo,22,Divorciado,Branco,1.0,3312,RO,Rondônia,Norte,Brasil,1
+348,117.0,140,Masculino,56,Funcionário Setor Privado,Ensino Médio Completo,22,União Estável,Branco,5.0,2800,RO,Rondônia,Norte,Brasil,1
+349,145.0,171,Feminino,31,Funcionário Setor Privado,Ensino Médio Completo,8,Solteiro,Branco,1.0,2015,ES,Espírito Santo,Sudeste,Brasil,2
+350,134.0,163,Masculino,33,Funcionário Setor Privado,Ensino Médio Completo,16,Casado,Branco,5.0,2262,PR,Paraná,Sul,Brasil,2
+351,199.0,232,Masculino,26,Funcionário Setor Privado,Ensino Médio Incompleto,6,Casado,Branco,0.0,1100,CE,Ceará,Nordeste,Brasil,0
+352,115.0,131,Masculino,33,Funcionário Setor Privado,Ensino Médio Completo,24,Casado,Branco,4.0,3813,SC,Santa Catarina,Sul,Brasil,1
+353,149.0,184,Feminino,46,Empresário,Ensino Médio Incompleto,25,Casado,Branco,2.0,5318,SP,São Paulo,Sudeste,Brasil,2
+354,192.0,225,Feminino,59,Funcionário Setor Privado,Ensino Médio Completo,9,Casado,Branco,3.0,2179,GO,Goiás,Centro-Oeste,Brasil,0
+355,188.0,223,Masculino,38,Funcionário Público,Ensino Médio Incompleto,19,Casado,Branco,5.0,1144,RJ,Rio de Janeiro,Sudeste,Brasil,0
+356,107.0,121,Feminino,65,Funcionário Setor Privado,Ensino Médio Incompleto,25,Viúvo,Amarelo,4.0,1100,SP,São Paulo,Sudeste,Brasil,1
+357,190.0,223,Masculino,40,Funcionário Setor Privado,Ensino Médio Completo,24,Casado,Branco,5.0,3142,SC,Santa Catarina,Sul,Brasil,0
+358,98.0,105,Feminino,42,Funcionário Setor Privado,Ensino Médio Incompleto,5,Casado,Branco,3.0,1100,BA,Bahia,Nordeste,Brasil,1
+359,158.0,197,Feminino,26,Autônomo,Ensino Fundamental Completo,24,Casado,Branco,2.0,1100,SC,Santa Catarina,Sul,Brasil,2
+360,128.0,160,Feminino,36,Funcionário Setor Privado,Ensino Fundamental Completo,11,Casado,Branco,2.0,1100,MT,Mato Grosso,Centro-Oeste,Brasil,2
+361,180.0,218,Feminino,62,Funcionário Setor Privado,Mestrado,7,Casado,Branco,2.0,6072,DF,Distrito Federal,Centro-Oeste,Brasil,0
+362,110.0,131,Feminino,43,Funcionário Setor Privado,Ensino Médio Completo,3,Casado,Branco,0.0,3316,AP,Amapá,Norte,Brasil,1
+363,172.0,211,Masculino,43,Funcionário Setor Privado,Ensino Médio Completo,12,Divorciado,Branco,2.0,2240,MS,Mato Grosso do Sul,Centro-Oeste,Brasil,0
+364,157.0,194,Feminino,22,Funcionário Setor Privado,Ensino Médio Incompleto,27,União Estável,Branco,4.0,1100,TO,Tocantins,Norte,Brasil,2
+365,137.0,169,Feminino,28,Funcionário Setor Privado,Ensino Médio Incompleto,1,Casado,Branco,2.0,1100,AC,Acre,Norte,Brasil,2
+366,158.0,189,Feminino,56,Autônomo,Ensino Médio Completo,9,Casado,Branco,2.0,3129,GO,Goiás,Centro-Oeste,Brasil,2
+367,110.0,128,Feminino,22,Funcionário Setor Privado,Ensino Médio Completo,6,Solteiro,Branco,4.0,2826,CE,Ceará,Nordeste,Brasil,1
+368,203.0,228,Masculino,57,Funcionário Setor Privado,Ensino Médio Completo,7,Divorciado,Branco,1.0,2161,DF,Distrito Federal,Centro-Oeste,Brasil,0
+369,145.0,169,Feminino,39,Funcionário Setor Privado,Ensino Médio Incompleto,5,Divorciado,Branco,3.0,1100,BA,Bahia,Nordeste,Brasil,2
+370,96.0,108,Masculino,26,Funcionário Público,Ensino Médio Completo,3,Solteiro,Branco,3.0,5885,AP,Amapá,Norte,Brasil,1
+371,186.0,219,Feminino,17,Menor Aprendiz,Ensino Médio Incompleto,8,Solteiro,Branco,1.0,1100,ES,Espírito Santo,Sudeste,Brasil,0
+372,110.0,124,Feminino,40,Servidor Público,Ensino Médio Completo,6,Casado,Branco,4.0,3386,CE,Ceará,Nordeste,Brasil,1
+373,194.0,224,Feminino,45,Funcionário Setor Privado,Ensino Médio Incompleto,26,Casado,Negro,1.0,1100,SE,Sergipe,Nordeste,Brasil,0
+374,177.0,214,Masculino,44,Funcionário Setor Privado,Ensino Médio Incompleto,25,Solteiro,Negro,4.0,1100,SP,São Paulo,Sudeste,Brasil,0
+375,152.0,190,Masculino,20,Empresário,Ensino Médio Completo,27,Solteiro,Branco,0.0,16619,TO,Tocantins,Norte,Brasil,2
+376,172.0,205,Masculino,33,Funcionário Setor Privado,Ensino Médio Incompleto,12,Casado,Branco,4.0,1100,MS,Mato Grosso do Sul,Centro-Oeste,Brasil,0
+377,140.0,167,Masculino,23,Funcionário Setor Privado,Ensino Médio Completo,8,Solteiro,Branco,5.0,2142,ES,Espírito Santo,Sudeste,Brasil,2
+378,154.0,190,Masculino,46,Autônomo,Mestrado,6,Divorciado,Branco,0.0,7991,CE,Ceará,Nordeste,Brasil,2
+379,113.0,128,Masculino,54,Funcionário Setor Privado,Ensino Médio Incompleto,9,Divorciado,Branco,4.0,1100,GO,Goiás,Centro-Oeste,Brasil,1
+380,179.0,217,Feminino,46,Funcionário Setor Privado,Ensino Fundamental Incompleto,18,Divorciado,Branco,4.0,1100,PI,Piauí,Nordeste,Brasil,0
+381,111.0,126,Masculino,25,Funcionário Setor Privado,Ensino Médio Completo,17,Casado,Branco,4.0,3906,PE,Pernambuco,Nordeste,Brasil,1
+382,196.0,228,Masculino,46,Funcionário Setor Privado,Ensino Médio Completo,10,Divorciado,Branco,2.0,3240,MA,Maranhão,Nordeste,Brasil,0
+383,101.0,105,Masculino,36,Empresário,Ensino Médio Completo,14,Casado,Branco,0.0,4278,PA,Pará,Norte,Brasil,1
+384,131.0,162,Feminino,23,Funcionário Setor Privado,Ensino Médio Incompleto,27,Solteiro,Branco,5.0,1100,TO,Tocantins,Norte,Brasil,2
+385,171.0,211,Masculino,29,Funcionário Setor Privado,Ensino Médio Incompleto,25,Separado,Branco,5.0,1100,SP,São Paulo,Sudeste,Brasil,0
+386,199.0,227,Masculino,44,Funcionário Setor Privado,Ensino Médio Completo,11,Casado,Branco,3.0,2158,MT,Mato Grosso,Centro-Oeste,Brasil,0
+387,151.0,178,Masculino,19,Funcionário Setor Privado,Ensino Médio Completo,12,Solteiro,Branco,0.0,3246,MS,Mato Grosso do Sul,Centro-Oeste,Brasil,2
+388,121.0,146,Masculino,19,Funcionário Setor Privado,Ensino Médio Incompleto,23,Solteiro,Branco,2.0,1100,RR,Roraima,Norte,Brasil,1
+389,196.0,227,Feminino,35,Funcionário Setor Privado,Ensino Médio Incompleto,25,Casado,Branco,3.0,1100,SP,São Paulo,Sudeste,Brasil,0
+390,174.0,208,Masculino,27,Funcionário Setor Privado,Ensino Médio Completo,13,Solteiro,Branco,4.0,3926,MG,Minas Gerais,Sudeste,Brasil,0
+391,135.0,163,Feminino,46,Autônomo,Ensino Médio Completo,7,Separado,Branco,0.0,3669,DF,Distrito Federal,Centro-Oeste,Brasil,2
+392,184.0,225,Masculino,34,Servidor Público,Ensino Médio Completo,25,Casado,Branco,2.0,4133,SP,São Paulo,Sudeste,Brasil,0
+393,137.0,167,Feminino,34,Funcionário Setor Privado,Ensino Médio Incompleto,18,Solteiro,Branco,5.0,1100,PI,Piauí,Nordeste,Brasil,2
+394,129.0,162,Feminino,44,Funcionário Setor Privado,Ensino Médio Completo,23,Casado,Branco,2.0,2319,RR,Roraima,Norte,Brasil,2
+395,108.0,125,Feminino,45,Funcionário Setor Privado,Ensino Médio Completo,11,Divorciado,Branco,0.0,2254,MT,Mato Grosso,Centro-Oeste,Brasil,1
+396,116.0,144,Feminino,20,Funcionário Setor Privado,Ensino Médio Incompleto,13,Solteiro,Branco,1.0,1100,MG,Minas Gerais,Sudeste,Brasil,1
+397,168.0,199,Masculino,25,Funcionário Setor Privado,Ensino Médio Completo,22,Casado,Branco,0.0,3772,RO,Rondônia,Norte,Brasil,0
+398,184.0,226,Masculino,52,MEI,Ensino Médio Completo,12,Casado,Branco,1.0,5014,MS,Mato Grosso do Sul,Centro-Oeste,Brasil,0
+399,151.0,183,Masculino,20,Funcionário Setor Privado,Ensino Médio Completo,7,Solteiro,Branco,0.0,3805,DF,Distrito Federal,Centro-Oeste,Brasil,2
+400,114.0,136,Feminino,28,Funcionário Setor Privado,Ensino Médio Completo,7,Solteiro,Branco,2.0,3676,DF,Distrito Federal,Centro-Oeste,Brasil,1
+401,167.0,199,Feminino,50,Servidor Público,Ensino Médio Completo,7,Casado,Branco,2.0,4266,DF,Distrito Federal,Centro-Oeste,Brasil,0
+402,160.0,204,Feminino,34,Funcionário Setor Privado,Ensino Médio Completo,15,Divorciado,Branco,1.0,2497,PB,Paraíba,Nordeste,Brasil,0
+403,175.0,215,Feminino,28,Funcionário Setor Privado,Ensino Fundamental Incompleto,27,Casado,Amarelo,2.0,1100,TO,Tocantins,Norte,Brasil,0
+404,127.0,155,Masculino,41,Funcionário Setor Privado,Mestrado,9,Casado,Branco,5.0,6398,GO,Goiás,Centro-Oeste,Brasil,2
+405,146.0,179,Masculino,46,Autônomo,Ensino Médio Incompleto,2,Casado,Branco,2.0,1100,AL,Alagoas,Nordeste,Brasil,2
+406,118.0,133,Feminino,28,Funcionário Setor Privado,Ensino Médio Completo,11,Casado,Branco,1.0,3056,MT,Mato Grosso,Centro-Oeste,Brasil,1
+407,151.0,186,Feminino,32,Funcionário Setor Privado,Ensino Médio Completo,3,Casado,Branco,4.0,2735,AP,Amapá,Norte,Brasil,2
+408,105.0,111,Masculino,41,Empresário,Ensino Médio Completo,11,Divorciado,Negro,5.0,4726,MT,Mato Grosso,Centro-Oeste,Brasil,1
+409,180.0,219,Masculino,24,Funcionário Setor Privado,Ensino Médio Incompleto,13,Solteiro,Negro,4.0,1100,MG,Minas Gerais,Sudeste,Brasil,0
+410,140.0,173,Feminino,33,Funcionário Setor Privado,Ensino Médio Completo,9,Divorciado,Branco,2.0,2763,GO,Goiás,Centro-Oeste,Brasil,2
+411,155.0,185,Masculino,46,Funcionário Setor Privado,Doutorado,9,Casado,Branco,3.0,15908,GO,Goiás,Centro-Oeste,Brasil,2
+412,106.0,118,Masculino,31,Servidor Público,Ensino Médio Completo,26,Casado,Branco,3.0,4032,SE,Sergipe,Nordeste,Brasil,1
+413,160.0,199,Masculino,35,Funcionário Setor Privado,Ensino Médio Incompleto,8,Divorciado,Branco,2.0,1100,ES,Espírito Santo,Sudeste,Brasil,0
+414,192.0,226,Feminino,52,Funcionário Setor Privado,Ensino Fundamental Incompleto,14,Casado,Branco,3.0,1100,PA,Pará,Norte,Brasil,0
+415,138.0,169,Feminino,30,Funcionário Setor Privado,Ensino Médio Incompleto,9,Solteiro,Branco,4.0,1100,GO,Goiás,Centro-Oeste,Brasil,2
+416,122.0,144,Masculino,34,Empresário,Ensino Médio Incompleto,25,Separado,Negro,2.0,7495,SP,São Paulo,Sudeste,Brasil,1
+417,135.0,166,Feminino,34,Servidor Público,Ensino Médio Incompleto,7,Divorciado,Branco,5.0,1265,DF,Distrito Federal,Centro-Oeste,Brasil,2
+418,132.0,166,Masculino,20,Funcionário Setor Privado,Ensino Médio Completo,26,Casado,Branco,2.0,3865,SE,Sergipe,Nordeste,Brasil,2
+419,158.0,198,Feminino,17,Menor Aprendiz,Ensino Médio Incompleto,5,Solteiro,Branco,2.0,1100,BA,Bahia,Nordeste,Brasil,2
+420,184.0,222,Feminino,32,Servidor Público,Ensino Médio Completo,25,Casado,Branco,1.0,3338,SP,São Paulo,Sudeste,Brasil,0
+421,101.0,110,Masculino,29,Funcionário Setor Privado,Ensino Médio Incompleto,11,Divorciado,Branco,4.0,1100,MT,Mato Grosso,Centro-Oeste,Brasil,1
+422,126.0,154,Feminino,33,Funcionário Setor Privado,Ensino Fundamental Completo,11,Solteiro,Branco,2.0,1100,MT,Mato Grosso,Centro-Oeste,Brasil,2
+423,188.0,226,Feminino,25,Funcionário Setor Privado,Ensino Médio Incompleto,21,Casado,Branco,2.0,1100,RS,Rio Grande do Sul,Sul,Brasil,0
+424,118.0,135,Feminino,36,Funcionário Público,Mestrado,20,Solteiro,Branco,4.0,7855,RN,Rio Grande do Norte,Nordeste,Brasil,1
+425,127.0,151,Feminino,23,Funcionário Setor Privado,Ensino Médio Incompleto,1,Solteiro,Branco,0.0,1100,AC,Acre,Norte,Brasil,2
+426,123.0,146,Feminino,63,MEI,Ensino Médio Incompleto,16,Casado,Branco,3.0,6486,PR,Paraná,Sul,Brasil,1
+427,117.0,133,Masculino,47,Empresário,Mestrado,4,Casado,Branco,4.0,17397,AM,Amazonas,Norte,Brasil,1
+428,172.0,205,Masculino,80,Aposentado,Ensino Médio Incompleto,2,Viúvo,Branco,4.0,4678,AL,Alagoas,Nordeste,Brasil,0
+429,127.0,154,Masculino,17,Menor Aprendiz,Ensino Médio Incompleto,2,Solteiro,Branco,0.0,1100,AL,Alagoas,Nordeste,Brasil,2
+430,104.0,116,Masculino,40,Autônomo,Ensino Médio Completo,21,União Estável,Branco,1.0,2939,RS,Rio Grande do Sul,Sul,Brasil,1
+431,121.0,145,Masculino,27,Funcionário Setor Privado,Ensino Médio Completo,14,Solteiro,Pardo,5.0,2334,PA,Pará,Norte,Brasil,1
+432,148.0,174,Masculino,33,Funcionário Setor Privado,Mestrado,5,Casado,Branco,3.0,9808,BA,Bahia,Nordeste,Brasil,2
+433,141.0,168,Feminino,34,Empresário,Ensino Médio Incompleto,7,Solteiro,Negro,5.0,3258,DF,Distrito Federal,Centro-Oeste,Brasil,2
+434,128.0,156,Feminino,34,Empresário,Ensino Médio Completo,5,Solteiro,Branco,5.0,4777,BA,Bahia,Nordeste,Brasil,2
+435,113.0,124,Feminino,23,Funcionário Setor Privado,Ensino Médio Completo,24,Casado,Branco,3.0,2253,SC,Santa Catarina,Sul,Brasil,1
+436,155.0,196,Feminino,42,Empresário,Ensino Médio Completo,26,Casado,Branco,4.0,11239,SE,Sergipe,Nordeste,Brasil,2
+437,189.0,227,Feminino,29,Funcionário Setor Privado,Ensino Médio Completo,4,Solteiro,Branco,1.0,3633,AM,Amazonas,Norte,Brasil,0
+438,108.0,122,Masculino,45,Funcionário Setor Privado,Ensino Médio Incompleto,24,Divorciado,Branco,0.0,1100,SC,Santa Catarina,Sul,Brasil,1
+439,98.0,106,Masculino,24,Funcionário Público,Ensino Médio Incompleto,22,Solteiro,Branco,5.0,1200,RO,Rondônia,Norte,Brasil,1
+440,100.0,110,Feminino,44,Funcionário Setor Privado,Ensino Médio Completo,4,Casado,Branco,0.0,3837,AM,Amazonas,Norte,Brasil,1
+441,134.0,158,Masculino,27,Funcionário Setor Privado,Ensino Fundamental Completo,3,Solteiro,Branco,3.0,1100,AP,Amapá,Norte,Brasil,2
+442,125.0,154,Masculino,20,Funcionário Setor Privado,Ensino Médio Completo,11,Solteiro,Branco,2.0,2559,MT,Mato Grosso,Centro-Oeste,Brasil,2
+443,151.0,190,Feminino,44,Funcionário Setor Privado,Ensino Médio Incompleto,5,Viúvo,Negro,4.0,1100,BA,Bahia,Nordeste,Brasil,2
+444,100.0,110,Feminino,51,Funcionário Setor Privado,Ensino Médio Incompleto,18,Casado,Indígena,5.0,1100,PI,Piauí,Nordeste,Brasil,1
+445,107.0,120,Masculino,20,Funcionário Setor Privado,Ensino Médio Incompleto,16,Casado,Branco,1.0,1100,PR,Paraná,Sul,Brasil,1
+446,147.0,180,Masculino,17,Menor Aprendiz,Ensino Médio Incompleto,1,Solteiro,Branco,1.0,1100,AC,Acre,Norte,Brasil,2
+447,200.0,232,Feminino,19,Funcionário Setor Privado,Ensino Médio Incompleto,5,Solteiro,Negro,2.0,1100,BA,Bahia,Nordeste,Brasil,0
+448,101.0,110,Feminino,45,MEI,Ensino Médio Completo,26,Casado,Branco,0.0,3772,SE,Sergipe,Nordeste,Brasil,1
+449,120.0,142,Feminino,60,Funcionário Setor Privado,Ensino Médio Incompleto,26,Casado,Branco,5.0,1100,SE,Sergipe,Nordeste,Brasil,1
+450,181.0,222,Masculino,42,Funcionário Setor Privado,Ensino Médio Completo,27,Casado,Negro,2.0,3634,TO,Tocantins,Norte,Brasil,0
+451,182.0,218,Masculino,44,Autônomo,Ensino Médio Incompleto,2,Casado,Branco,5.0,1100,AL,Alagoas,Nordeste,Brasil,0
+452,117.0,138,Feminino,40,Funcionário Setor Privado,Ensino Médio Completo,12,Casado,Pardo,4.0,3722,MS,Mato Grosso do Sul,Centro-Oeste,Brasil,1
+453,145.0,176,Feminino,30,Funcionário Setor Privado,Ensino Médio Incompleto,21,Casado,Branco,3.0,1100,RS,Rio Grande do Sul,Sul,Brasil,2
+454,106.0,115,Masculino,38,Funcionário Setor Privado,Ensino Médio Completo,14,Casado,Negro,1.0,3180,PA,Pará,Norte,Brasil,1
+455,179.0,211,Masculino,23,Funcionário Setor Privado,Ensino Médio Incompleto,9,Casado,Branco,5.0,1100,GO,Goiás,Centro-Oeste,Brasil,0
+456,134.0,168,Masculino,32,Funcionário Setor Privado,Ensino Médio Completo,3,Casado,Branco,4.0,2749,AP,Amapá,Norte,Brasil,2
+457,180.0,216,Masculino,54,Empresário,Ensino Médio Incompleto,7,Casado,Negro,3.0,19727,DF,Distrito Federal,Centro-Oeste,Brasil,0
+458,126.0,147,Masculino,32,Funcionário Setor Privado,Ensino Médio Completo,22,Casado,Branco,5.0,2488,RO,Rondônia,Norte,Brasil,1
+459,110.0,124,Masculino,50,Funcionário Setor Privado,Ensino Fundamental Incompleto,10,União Estável,Branco,3.0,1100,MA,Maranhão,Nordeste,Brasil,1
+460,180.0,215,Feminino,24,Funcionário Setor Privado,Ensino Médio Completo,11,Solteiro,Branco,3.0,2599,MT,Mato Grosso,Centro-Oeste,Brasil,0
+461,103.0,117,Masculino,37,Funcionário Setor Privado,Ensino Médio Incompleto,6,Casado,Branco,0.0,1100,CE,Ceará,Nordeste,Brasil,1
+462,116.0,139,Masculino,52,Funcionário Setor Privado,Ensino Médio Incompleto,23,Divorciado,Branco,4.0,1100,RR,Roraima,Norte,Brasil,1
+463,119.0,138,Masculino,38,Funcionário Setor Privado,Ensino Médio Completo,10,Casado,Branco,2.0,2389,MA,Maranhão,Nordeste,Brasil,1
+464,144.0,171,Feminino,49,Funcionário Setor Privado,Mestrado,9,Casado,Branco,5.0,6647,GO,Goiás,Centro-Oeste,Brasil,2
+465,133.0,158,Masculino,30,Funcionário Setor Privado,Ensino Médio Completo,24,Casado,Branco,5.0,3309,SC,Santa Catarina,Sul,Brasil,2
+466,199.0,232,Masculino,60,Funcionário Setor Privado,Ensino Médio Completo,18,Solteiro,Branco,3.0,2622,PI,Piauí,Nordeste,Brasil,0
+467,115.0,139,Masculino,22,Funcionário Setor Privado,Ensino Médio Completo,19,Solteiro,Branco,3.0,2341,RJ,Rio de Janeiro,Sudeste,Brasil,1
+468,150.0,178,Feminino,35,Funcionário Setor Privado,Ensino Médio Incompleto,27,Solteiro,Branco,2.0,1100,TO,Tocantins,Norte,Brasil,2
+469,192.0,224,Feminino,30,Funcionário Setor Privado,Ensino Médio Incompleto,21,Solteiro,Branco,4.0,1100,RS,Rio Grande do Sul,Sul,Brasil,0
+470,188.0,224,Masculino,67,Aposentado,Ensino Médio Completo,11,Divorciado,Branco,4.0,5259,MT,Mato Grosso,Centro-Oeste,Brasil,0
+471,109.0,116,Feminino,46,Funcionário Setor Privado,Ensino Médio Completo,2,Solteiro,Branco,0.0,2560,AL,Alagoas,Nordeste,Brasil,1
+472,189.0,223,Masculino,17,Menor Aprendiz,Ensino Fundamental Completo,15,Solteiro,Branco,0.0,1100,PB,Paraíba,Nordeste,Brasil,0
+473,101.0,109,Feminino,22,Funcionário Setor Privado,Ensino Médio Completo,17,Solteiro,Branco,4.0,3150,PE,Pernambuco,Nordeste,Brasil,1
+474,159.0,193,Feminino,27,Funcionário Setor Privado,Ensino Fundamental Completo,14,Solteiro,Branco,0.0,1100,PA,Pará,Norte,Brasil,2
+475,128.0,155,Feminino,23,Funcionário Setor Privado,Ensino Médio Incompleto,5,Solteiro,Branco,5.0,1100,BA,Bahia,Nordeste,Brasil,2
+476,182.0,221,Feminino,33,Funcionário Setor Privado,Ensino Médio Completo,16,Casado,Branco,1.0,2656,PR,Paraná,Sul,Brasil,0
+477,111.0,130,Feminino,43,Autônomo,Ensino Médio Completo,9,Casado,Branco,5.0,2521,GO,Goiás,Centro-Oeste,Brasil,1
+478,171.0,212,Masculino,28,Servidor Público,Ensino Médio Completo,12,Solteiro,Branco,0.0,4713,MS,Mato Grosso do Sul,Centro-Oeste,Brasil,0
+479,154.0,190,Feminino,41,Funcionário Setor Privado,Ensino Médio Incompleto,6,União Estável,Branco,4.0,1100,CE,Ceará,Nordeste,Brasil,2
+480,134.0,169,Feminino,52,Funcionário Setor Privado,Ensino Médio Incompleto,22,Solteiro,Negro,3.0,1100,RO,Rondônia,Norte,Brasil,2
+481,157.0,191,Feminino,25,Funcionário Setor Privado,Ensino Médio Completo,23,União Estável,Negro,2.0,3696,RR,Roraima,Norte,Brasil,2
+482,112.0,122,Feminino,63,Funcionário Setor Privado,Ensino Fundamental Incompleto,17,Casado,Branco,1.0,1100,PE,Pernambuco,Nordeste,Brasil,1
+483,203.0,234,Masculino,45,Empresário,Ensino Médio Completo,2,Divorciado,Branco,2.0,14438,AL,Alagoas,Nordeste,Brasil,0
+484,142.0,175,Feminino,38,Funcionário Setor Privado,Ensino Médio Completo,21,Casado,Branco,3.0,2699,RS,Rio Grande do Sul,Sul,Brasil,2
+485,97.0,108,Masculino,40,Funcionário Setor Privado,Ensino Médio Incompleto,15,Solteiro,Branco,0.0,1100,PB,Paraíba,Nordeste,Brasil,1
+486,187.0,220,Feminino,46,Funcionário Público,Ensino Médio Incompleto,11,Divorciado,Branco,2.0,1983,MT,Mato Grosso,Centro-Oeste,Brasil,0
+487,111.0,126,Feminino,35,Funcionário Setor Privado,Ensino Médio Completo,2,Solteiro,Branco,1.0,3954,AL,Alagoas,Nordeste,Brasil,1
+488,194.0,227,Feminino,34,Funcionário Setor Privado,Ensino Médio Incompleto,13,Divorciado,Branco,3.0,1100,MG,Minas Gerais,Sudeste,Brasil,0
+489,176.0,216,Masculino,33,Funcionário Setor Privado,Ensino Médio Completo,10,Solteiro,Branco,2.0,3816,MA,Maranhão,Nordeste,Brasil,0
+490,153.0,188,Masculino,41,Funcionário Setor Privado,Ensino Médio Incompleto,4,Divorciado,Branco,2.0,1100,AM,Amazonas,Norte,Brasil,2
+491,171.0,205,Masculino,20,Funcionário Setor Privado,Ensino Médio Completo,2,Solteiro,Branco,1.0,2133,AL,Alagoas,Nordeste,Brasil,0
+492,142.0,172,Masculino,23,Funcionário Setor Privado,Ensino Fundamental Incompleto,14,Solteiro,Branco,2.0,1100,PA,Pará,Norte,Brasil,2
+493,153.0,192,Masculino,26,Funcionário Setor Privado,Ensino Médio Completo,22,Solteiro,Branco,0.0,2996,RO,Rondônia,Norte,Brasil,2
+494,113.0,129,Masculino,72,Aposentado,Ensino Médio Incompleto,23,Casado,Branco,4.0,5188,RR,Roraima,Norte,Brasil,1
+495,183.0,219,Feminino,23,Empresário,Ensino Médio Incompleto,16,Solteiro,Branco,2.0,6866,PR,Paraná,Sul,Brasil,0
+496,108.0,127,Masculino,62,Empresário,Ensino Médio Incompleto,21,Casado,Branco,2.0,3618,RS,Rio Grande do Sul,Sul,Brasil,1
+497,200.0,228,Masculino,52,Funcionário Setor Privado,Ensino Médio Completo,2,Casado,Branco,2.0,2284,AL,Alagoas,Nordeste,Brasil,0
+498,99.0,105,Masculino,58,Funcionário Setor Privado,Ensino Médio Completo,25,Divorciado,Branco,5.0,2988,SP,São Paulo,Sudeste,Brasil,1
+499,131.0,159,Feminino,25,Funcionário Setor Privado,Ensino Médio Completo,13,Solteiro,Branco,2.0,2924,MG,Minas Gerais,Sudeste,Brasil,2
+500,171.0,205,Masculino,24,Funcionário Setor Privado,Ensino Médio Completo,8,Solteiro,Negro,1.0,2362,ES,Espírito Santo,Sudeste,Brasil,0
+501,200.0,228,Masculino,19,Funcionário Setor Privado,Ensino Médio Completo,14,Solteiro,Branco,2.0,2750,PA,Pará,Norte,Brasil,0
+502,152.0,178,Masculino,43,Funcionário Setor Privado,Ensino Médio Completo,20,Casado,Branco,4.0,3503,RN,Rio Grande do Norte,Nordeste,Brasil,2
+503,119.0,139,Masculino,47,Empresário,Ensino Médio Incompleto,7,Separado,Negro,5.0,1209,DF,Distrito Federal,Centro-Oeste,Brasil,1
+504,196.0,232,Feminino,39,Funcionário Setor Privado,Ensino Médio Incompleto,9,Divorciado,Branco,3.0,1100,GO,Goiás,Centro-Oeste,Brasil,0
+505,173.0,212,Masculino,49,Funcionário Setor Privado,Ensino Médio Completo,12,União Estável,Branco,1.0,3759,MS,Mato Grosso do Sul,Centro-Oeste,Brasil,0
+506,132.0,162,Feminino,53,Funcionário Setor Privado,Ensino Fundamental Incompleto,27,Viúvo,Negro,3.0,1100,TO,Tocantins,Norte,Brasil,2
+507,185.0,226,Masculino,32,Funcionário Setor Privado,Ensino Médio Completo,8,Solteiro,Branco,4.0,2777,ES,Espírito Santo,Sudeste,Brasil,0
+508,138.0,171,Feminino,34,Funcionário Setor Privado,Ensino Médio Completo,25,Casado,Branco,0.0,2782,SP,São Paulo,Sudeste,Brasil,2
+509,132.0,159,Feminino,57,Funcionário Setor Privado,Ensino Médio Completo,7,Viúvo,Branco,5.0,3600,DF,Distrito Federal,Centro-Oeste,Brasil,2
+510,110.0,120,Feminino,25,Funcionário Setor Privado,Ensino Médio Completo,22,Solteiro,Indígena,3.0,2789,RO,Rondônia,Norte,Brasil,1
+511,119.0,143,Feminino,20,Funcionário Setor Privado,Ensino Médio Completo,13,Solteiro,Branco,2.0,3197,MG,Minas Gerais,Sudeste,Brasil,1
+512,167.0,200,Masculino,21,Funcionário Setor Privado,Ensino Médio Completo,25,Solteiro,Branco,2.0,2083,SP,São Paulo,Sudeste,Brasil,0
+513,188.0,221,Masculino,34,Funcionário Setor Privado,Ensino Médio Completo,17,Casado,Branco,1.0,3179,PE,Pernambuco,Nordeste,Brasil,0
+514,151.0,184,Masculino,38,MEI,Ensino Médio Completo,15,Casado,Branco,1.0,1956,PB,Paraíba,Nordeste,Brasil,2
+515,112.0,134,Feminino,50,Funcionário Setor Privado,Ensino Médio Incompleto,5,Casado,Branco,3.0,1100,BA,Bahia,Nordeste,Brasil,1
+516,166.0,200,Feminino,24,Empresário,Ensino Médio Completo,23,Divorciado,Negro,2.0,10921,RR,Roraima,Norte,Brasil,0
+517,158.0,201,Feminino,37,Empresário,Ensino Médio Completo,5,Casado,Branco,3.0,6575,BA,Bahia,Nordeste,Brasil,0
+518,172.0,210,Feminino,44,Funcionário Setor Privado,Ensino Médio Completo,25,Divorciado,Branco,1.0,3217,SP,São Paulo,Sudeste,Brasil,0
+519,127.0,159,Masculino,28,Funcionário Setor Privado,Ensino Médio Completo,14,Casado,Branco,1.0,3612,PA,Pará,Norte,Brasil,2
+520,150.0,178,Masculino,42,Funcionário Setor Privado,Ensino Médio Completo,21,Casado,Branco,4.0,2401,RS,Rio Grande do Sul,Sul,Brasil,2
+521,115.0,137,Feminino,74,Aposentado,Ensino Médio Completo,21,Divorciado,Branco,2.0,3028,RS,Rio Grande do Sul,Sul,Brasil,1
+522,151.0,190,Feminino,38,Autônomo,Ensino Médio Incompleto,16,Casado,Branco,2.0,1100,PR,Paraná,Sul,Brasil,2
+523,103.0,110,Masculino,44,Autônomo,Mestrado,14,Casado,Branco,1.0,9161,PA,Pará,Norte,Brasil,1
+524,181.0,213,Masculino,44,Funcionário Setor Privado,Ensino Médio Incompleto,14,Divorciado,Amarelo,5.0,1100,PA,Pará,Norte,Brasil,0
+525,141.0,170,Feminino,26,Funcionário Setor Privado,Ensino Médio Incompleto,13,Solteiro,Branco,1.0,1100,MG,Minas Gerais,Sudeste,Brasil,2
+526,152.0,193,Masculino,36,Funcionário Setor Privado,Ensino Médio Incompleto,19,Casado,Negro,1.0,1100,RJ,Rio de Janeiro,Sudeste,Brasil,2
+527,105.0,113,Masculino,41,Funcionário Setor Privado,Ensino Médio Completo,22,Casado,Branco,2.0,2625,RO,Rondônia,Norte,Brasil,1
+528,162.0,196,Masculino,67,Aposentado,Mestrado,6,Casado,Branco,0.0,5026,CE,Ceará,Nordeste,Brasil,0
+529,190.0,222,Feminino,39,Empresário,Ensino Médio Incompleto,1,Casado,Branco,3.0,5588,AC,Acre,Norte,Brasil,0
+530,141.0,174,Feminino,57,Funcionário Setor Privado,Ensino Fundamental Incompleto,12,Viúvo,Negro,0.0,1100,MS,Mato Grosso do Sul,Centro-Oeste,Brasil,2
+531,122.0,143,Masculino,29,Funcionário Setor Privado,Ensino Médio Completo,5,Separado,Branco,2.0,3654,BA,Bahia,Nordeste,Brasil,1
+532,136.0,169,Feminino,31,MEI,Ensino Médio Completo,3,Solteiro,Branco,0.0,3144,AP,Amapá,Norte,Brasil,2
+533,131.0,165,Masculino,34,Funcionário Setor Privado,Ensino Médio Incompleto,5,Solteiro,Negro,0.0,1100,BA,Bahia,Nordeste,Brasil,2
+534,157.0,194,Feminino,44,Funcionário Setor Privado,Ensino Médio Completo,1,Casado,Branco,5.0,2114,AC,Acre,Norte,Brasil,2
+535,181.0,217,Feminino,30,Funcionário Setor Privado,Ensino Médio Completo,25,Solteiro,Branco,4.0,2898,SP,São Paulo,Sudeste,Brasil,0
+536,103.0,113,Masculino,27,Funcionário Setor Privado,Ensino Médio Incompleto,6,Solteiro,Branco,5.0,1100,CE,Ceará,Nordeste,Brasil,1
+537,127.0,150,Feminino,27,Funcionário Setor Privado,Ensino Médio Completo,21,Casado,Branco,5.0,3604,RS,Rio Grande do Sul,Sul,Brasil,2
+538,189.0,223,Feminino,32,Funcionário Setor Privado,Ensino Médio Incompleto,3,Solteiro,Branco,0.0,1100,AP,Amapá,Norte,Brasil,0
+539,114.0,133,Feminino,58,Funcionário Setor Privado,Ensino Fundamental Completo,16,Casado,Branco,2.0,1100,PR,Paraná,Sul,Brasil,1
+540,125.0,149,Feminino,35,Empresário,Ensino Médio Completo,14,Casado,Branco,1.0,13815,PA,Pará,Norte,Brasil,1
+541,123.0,149,Feminino,21,Funcionário Setor Privado,Ensino Médio Incompleto,8,Solteiro,Branco,1.0,1100,ES,Espírito Santo,Sudeste,Brasil,1
+542,116.0,130,Masculino,28,Funcionário Setor Privado,Ensino Médio Completo,19,Solteiro,Branco,3.0,3574,RJ,Rio de Janeiro,Sudeste,Brasil,1
+543,172.0,207,Masculino,46,Autônomo,Ensino Médio Completo,9,Divorciado,Branco,1.0,3533,GO,Goiás,Centro-Oeste,Brasil,0
+544,129.0,157,Masculino,36,Autônomo,Ensino Médio Incompleto,5,Separado,Branco,1.0,1100,BA,Bahia,Nordeste,Brasil,2
+545,107.0,115,Masculino,72,Aposentado,Ensino Médio Incompleto,1,Viúvo,Branco,1.0,4110,AC,Acre,Norte,Brasil,1
+546,117.0,147,Masculino,35,Funcionário Setor Privado,Ensino Médio Incompleto,5,Casado,Negro,2.0,1100,BA,Bahia,Nordeste,Brasil,1
+547,148.0,176,Masculino,33,Funcionário Público,Ensino Médio Completo,26,Divorciado,Negro,1.0,4925,SE,Sergipe,Nordeste,Brasil,2
+430,104.0,116,Masculino,40,Autônomo,Ensino Médio Completo,21,União Estável,Branco,1.0,2939,RS,Rio Grande do Sul,Sul,Brasil,1
+431,121.0,145,Masculino,27,Funcionário Setor Privado,Ensino Médio Completo,14,Solteiro,Pardo,5.0,2334,PA,Pará,Norte,Brasil,1
+432,148.0,174,Masculino,33,Funcionário Setor Privado,Mestrado,5,Casado,Branco,3.0,9808,BA,Bahia,Nordeste,Brasil,2
+433,141.0,168,Feminino,34,Empresário,Ensino Médio Incompleto,7,Solteiro,Negro,5.0,3258,DF,Distrito Federal,Centro-Oeste,Brasil,2
+434,128.0,156,Feminino,34,Empresário,Ensino Médio Completo,5,Solteiro,Branco,5.0,4777,BA,Bahia,Nordeste,Brasil,2
+435,113.0,124,Feminino,23,Funcionário Setor Privado,Ensino Médio Completo,24,Casado,Branco,3.0,2253,SC,Santa Catarina,Sul,Brasil,1
+436,155.0,196,Feminino,42,Empresário,Ensino Médio Completo,26,Casado,Branco,4.0,11239,SE,Sergipe,Nordeste,Brasil,2
+437,189.0,227,Feminino,29,Funcionário Setor Privado,Ensino Médio Completo,4,Solteiro,Branco,1.0,3633,AM,Amazonas,Norte,Brasil,0
+438,108.0,122,Masculino,45,Funcionário Setor Privado,Ensino Médio Incompleto,24,Divorciado,Branco,0.0,1100,SC,Santa Catarina,Sul,Brasil,1
+439,98.0,106,Masculino,24,Funcionário Público,Ensino Médio Incompleto,22,Solteiro,Branco,5.0,1200,RO,Rondônia,Norte,Brasil,1
+440,100.0,110,Feminino,44,Funcionário Setor Privado,Ensino Médio Completo,4,Casado,Branco,0.0,3837,AM,Amazonas,Norte,Brasil,1
+441,134.0,158,Masculino,27,Funcionário Setor Privado,Ensino Fundamental Completo,3,Solteiro,Branco,3.0,1100,AP,Amapá,Norte,Brasil,2
+442,125.0,154,Masculino,20,Funcionário Setor Privado,Ensino Médio Completo,11,Solteiro,Branco,2.0,2559,MT,Mato Grosso,Centro-Oeste,Brasil,2
+443,151.0,190,Feminino,44,Funcionário Setor Privado,Ensino Médio Incompleto,5,Viúvo,Negro,4.0,1100,BA,Bahia,Nordeste,Brasil,2
+444,100.0,110,Feminino,51,Funcionário Setor Privado,Ensino Médio Incompleto,18,Casado,Indígena,5.0,1100,PI,Piauí,Nordeste,Brasil,1
+445,107.0,120,Masculino,20,Funcionário Setor Privado,Ensino Médio Incompleto,16,Casado,Branco,1.0,1100,PR,Paraná,Sul,Brasil,1
+446,147.0,180,Masculino,17,Menor Aprendiz,Ensino Médio Incompleto,1,Solteiro,Branco,1.0,1100,AC,Acre,Norte,Brasil,2
+447,200.0,232,Feminino,19,Funcionário Setor Privado,Ensino Médio Incompleto,5,Solteiro,Negro,2.0,1100,BA,Bahia,Nordeste,Brasil,0
+448,101.0,110,Feminino,45,MEI,Ensino Médio Completo,26,Casado,Branco,0.0,3772,SE,Sergipe,Nordeste,Brasil,1
+449,120.0,142,Feminino,60,Funcionário Setor Privado,Ensino Médio Incompleto,26,Casado,Branco,5.0,1100,SE,Sergipe,Nordeste,Brasil,1
+450,181.0,222,Masculino,42,Funcionário Setor Privado,Ensino Médio Completo,27,Casado,Negro,2.0,3634,TO,Tocantins,Norte,Brasil,0
+451,182.0,218,Masculino,44,Autônomo,Ensino Médio Incompleto,2,Casado,Branco,5.0,1100,AL,Alagoas,Nordeste,Brasil,0
+452,117.0,138,Feminino,40,Funcionário Setor Privado,Ensino Médio Completo,12,Casado,Pardo,4.0,3722,MS,Mato Grosso do Sul,Centro-Oeste,Brasil,1
+453,145.0,176,Feminino,30,Funcionário Setor Privado,Ensino Médio Incompleto,21,Casado,Branco,3.0,1100,RS,Rio Grande do Sul,Sul,Brasil,2
+454,106.0,115,Masculino,38,Funcionário Setor Privado,Ensino Médio Completo,14,Casado,Negro,1.0,3180,PA,Pará,Norte,Brasil,1
+350,134.0,163,Masculino,33,Funcionário Setor Privado,Ensino Médio Completo,16,Casado,Branco,5.0,2262,PR,Paraná,Sul,Brasil,2
+351,199.0,232,Masculino,26,Funcionário Setor Privado,Ensino Médio Incompleto,6,Casado,Branco,0.0,1100,CE,Ceará,Nordeste,Brasil,0
+352,115.0,131,Masculino,33,Funcionário Setor Privado,Ensino Médio Completo,24,Casado,Branco,4.0,3813,SC,Santa Catarina,Sul,Brasil,1
+353,149.0,184,Feminino,46,Empresário,Ensino Médio Incompleto,25,Casado,Branco,2.0,5318,SP,São Paulo,Sudeste,Brasil,2
+354,192.0,225,Feminino,59,Funcionário Setor Privado,Ensino Médio Completo,9,Casado,Branco,3.0,2179,GO,Goiás,Centro-Oeste,Brasil,0
+355,188.0,223,Masculino,38,Funcionário Público,Ensino Médio Incompleto,19,Casado,Branco,5.0,1144,RJ,Rio de Janeiro,Sudeste,Brasil,0
+356,107.0,121,Feminino,65,Funcionário Setor Privado,Ensino Médio Incompleto,25,Viúvo,Amarelo,4.0,1100,SP,São Paulo,Sudeste,Brasil,1
+357,190.0,223,Masculino,40,Funcionário Setor Privado,Ensino Médio Completo,24,Casado,Branco,5.0,3142,SC,Santa Catarina,Sul,Brasil,0
+358,98.0,105,Feminino,42,Funcionário Setor Privado,Ensino Médio Incompleto,5,Casado,Branco,3.0,1100,BA,Bahia,Nordeste,Brasil,1
+359,158.0,197,Feminino,26,Autônomo,Ensino Fundamental Completo,24,Casado,Branco,2.0,1100,SC,Santa Catarina,Sul,Brasil,2
+360,128.0,160,Feminino,36,Funcionário Setor Privado,Ensino Fundamental Completo,11,Casado,Branco,2.0,1100,MT,Mato Grosso,Centro-Oeste,Brasil,2
+361,180.0,218,Feminino,62,Funcionário Setor Privado,Mestrado,7,Casado,Branco,2.0,6072,DF,Distrito Federal,Centro-Oeste,Brasil,0
+362,110.0,131,Feminino,43,Funcionário Setor Privado,Ensino Médio Completo,3,Casado,Branco,0.0,3316,AP,Amapá,Norte,Brasil,1
+363,172.0,211,Masculino,43,Funcionário Setor Privado,Ensino Médio Completo,12,Divorciado,Branco,2.0,2240,MS,Mato Grosso do Sul,Centro-Oeste,Brasil,0
+364,157.0,194,Feminino,22,Funcionário Setor Privado,Ensino Médio Incompleto,27,União Estável,Branco,4.0,1100,TO,Tocantins,Norte,Brasil,2
+365,137.0,169,Feminino,28,Funcionário Setor Privado,Ensino Médio Incompleto,1,Casado,Branco,2.0,1100,AC,Acre,Norte,Brasil,2
+366,158.0,189,Feminino,56,Autônomo,Ensino Médio Completo,9,Casado,Branco,2.0,3129,GO,Goiás,Centro-Oeste,Brasil,2
+367,110.0,128,Feminino,22,Funcionário Setor Privado,Ensino Médio Completo,6,Solteiro,Branco,4.0,2826,CE,Ceará,Nordeste,Brasil,1
